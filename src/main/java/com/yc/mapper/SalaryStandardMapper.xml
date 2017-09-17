@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 薪酬标准基本信息表-->
+<mapper namespace="com.yc.mapper.SalaryStandardMapper">
+
+	<select id="findAll" resultType="SalaryStandard">
+		select * from salary_standard
+	</select>
+
+	<insert id="addSalaryStandard" parameterType="SalaryStandard">
+		insert into salary_standard(standard_id,standard_name,designer,register,checker,
+		changer,regist_time,check_time,change_time,salary_sum,check_status,change_status,check_comment,remark)
+		values(#{standard_id},#{standard_name},#{designer},#{register},
+		null,null,#{regist_time},null,null,#{salary_sum},0,0,null,null)
+	</insert>
+	
+	<!-- 获取当前薪酬标准编号的最大值 -->
+	<select id="getStandardId" resultType="SalaryStandard">
+		select * from salary_standard where ssd_id in
+			(select MAX(ssd_id) from salary_standard)
+	</select>
+	
+	<!-- 更具id查看详情-->
+	<select id="findDetialById" parameterType="SalaryStandard" resultType="SalaryStandard">
+		select * from salary_standard
+		<trim prefix="where" prefixOverrides="and">
+			<if test="ssd_id != null">
+				and ssd_id=#{ssd_id}
+			</if>
+		</trim>
+	</select>
+	
+	<!-- 查看所有需要复核的薪酬标准- -->
+	<select id="findCheckSalaryStandard" resultType="SalaryStandard">
+		select * from salary_standard where check_status=0
+	</select>
+	
+	<!-- 分页查询所有需要复核的薪酬标准-->
+	<select id="findCheckSalaryStandardByPage" resultType="SalaryStandard" parameterType="SalaryStandard">
+		select * from salary_standard
+		where check_status=0 order by ssd_id limit #{page},#{rows}
+	</select>
+	
+	<!-- 根据standard_id 更改复核意见 check_comment  复核时间check_time  复核人checker 符合状态check_status-->
+	<update id="checkSalaryStandard" parameterType="SalaryStandard">
+		update salary_standard set check_comment=#{check_comment},check_time=NOW(),checker=#{checker},check_status=1  
+		where standard_id=#{standard_id}
+	</update>
+	
+	<!-- 变更薪酬标准 -->
+	<update id="changeSalaryStandard" parameterType="SalaryStandard">
+		update salary_standard set check_comment=#{check_comment},check_time=NOW(),checker=#{checker},check_status=1  
+		where standard_id=#{standard_id}
+	</update>
+	
+	<!-- 按条件查询  模糊查询-->
+	<select id="findBy" parameterType="SalaryStandard" resultType="SalaryStandard">
+		select * from salary_standard where 1=1 
+		<if test="standard_id != ''">
+			and standard_id like #{standard_id}
+		</if>
+		 <if test="key != ''">
+			and standard_name like #{key} or designer like #{key} or register like #{key} or checker like #{key} or changer like #{key}
+		</if>
+		<if test="minTime!=null and maxTime!=null">
+			and regist_time  &gt;  #{ minTime} and regist_time &lt; #{ maxTime}
+		</if>
+	</select>
+	
+	<select id="findSalaryStandardByConditionAndPage" parameterType="SalaryStandard" resultType="SalaryStandard">
+		select * from salary_standard where 1=1
+		<if test="standard_id != ''">
+			and standard_id like #{standard_id}
+		</if>
+		<if test="key != ''">
+			and standard_name like #{key} or designer like #{key} or register like #{key} or checker like #{key} or changer like #{key}
+		</if>
+		<if test="minTime!=null and maxTime!=null">
+			and regist_time  &gt;  #{ minTime} and regist_time &lt; #{ maxTime}
+		</if>
+		order by ssd_id limit #{page},#{rows}
+	</select>
+	
+</mapper>

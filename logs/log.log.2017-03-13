@@ -1,0 +1,131 @@
+2017-03-13 19:44:15  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:44:15 CST 2017]; root of context hierarchy
+2017-03-13 19:44:15  [ main:213 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-13 19:44:17  [ main:2126 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-13 19:44:19  [ main:4133 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findByPage(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:44:19  [ main:4135 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-13 19:44:19  [ main:4141 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:44:19  [ main:4142 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-13 19:44:19  [ main:4143 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:44:19  [ main:4144 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:44:20  [ main:4651 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:44:15 CST 2017]; root of context hierarchy
+2017-03-13 19:44:20  [ main:4822 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:44:15 CST 2017]; root of context hierarchy
+2017-03-13 19:44:20  [ main:5043 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-13 19:44:20  [ main:5053 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-13 19:44:20  [ main:5060 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-13 19:44:20  [ main:5066 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-13 19:44:21  [ main:6374 ] - [ DEBUG ]  ==>  Preparing: select * from human_file where human_file_status=0 order by human_id limit (0-1)*1,0*1 
+2017-03-13 19:44:21  [ main:6476 ] - [ DEBUG ]  ==> Parameters: 
+2017-03-13 19:44:21  [ main:6545 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-13 19:44:22  [ main:6617 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-13 19:45:23  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:45:23 CST 2017]; root of context hierarchy
+2017-03-13 19:45:24  [ main:191 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-13 19:45:25  [ main:1700 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-13 19:45:27  [ main:3524 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findByPage(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:45:27  [ main:3530 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-13 19:45:27  [ main:3531 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:45:27  [ main:3532 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-13 19:45:27  [ main:3533 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:45:27  [ main:3534 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:45:27  [ main:4023 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:45:23 CST 2017]; root of context hierarchy
+2017-03-13 19:45:28  [ main:4200 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:45:23 CST 2017]; root of context hierarchy
+2017-03-13 19:45:28  [ main:4425 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-13 19:45:28  [ main:4435 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-13 19:45:28  [ main:4442 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-13 19:45:28  [ main:4451 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-13 19:45:29  [ main:5701 ] - [ DEBUG ]  ==>  Preparing: select * from human_file where human_file_status=0 order by human_id limit (0-1)*1,0*1 
+2017-03-13 19:45:29  [ main:5776 ] - [ DEBUG ]  ==> Parameters: 
+2017-03-13 19:45:29  [ main:5837 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-13 19:45:29  [ main:5900 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-13 19:46:22  [ main:1 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@fe9e47: startup date [Mon Mar 13 19:46:22 CST 2017]; root of context hierarchy
+2017-03-13 19:46:23  [ main:256 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-13 19:46:24  [ main:1960 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-13 19:46:26  [ main:4123 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findByPage(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:46:26  [ main:4126 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-13 19:46:26  [ main:4126 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:46:26  [ main:4127 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-13 19:46:26  [ main:4128 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:46:26  [ main:4129 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:46:27  [ main:4647 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fe9e47: startup date [Mon Mar 13 19:46:22 CST 2017]; root of context hierarchy
+2017-03-13 19:46:27  [ main:4822 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fe9e47: startup date [Mon Mar 13 19:46:22 CST 2017]; root of context hierarchy
+2017-03-13 19:46:27  [ main:5079 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-13 19:46:27  [ main:5090 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-13 19:46:27  [ main:5098 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-13 19:46:27  [ main:5105 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-13 19:46:29  [ main:6226 ] - [ DEBUG ]  ==>  Preparing: select * from human_file where human_file_status=0 order by human_id limit (?-1)*?,?*? 
+2017-03-13 19:46:29  [ main:6308 ] - [ DEBUG ]  ==> Parameters: null, null, null, null
+2017-03-13 19:46:29  [ main:6358 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-13 19:46:29  [ main:6419 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-13 19:48:54  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@fe9e47: startup date [Mon Mar 13 19:48:54 CST 2017]; root of context hierarchy
+2017-03-13 19:48:54  [ main:201 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-13 19:48:56  [ main:1829 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-13 19:48:58  [ main:3893 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findByPage(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:48:58  [ main:3896 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-13 19:48:58  [ main:3896 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:48:58  [ main:3897 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-13 19:48:58  [ main:3898 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:48:58  [ main:3899 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:48:58  [ main:4519 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fe9e47: startup date [Mon Mar 13 19:48:54 CST 2017]; root of context hierarchy
+2017-03-13 19:48:59  [ main:4723 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fe9e47: startup date [Mon Mar 13 19:48:54 CST 2017]; root of context hierarchy
+2017-03-13 19:48:59  [ main:4950 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-13 19:48:59  [ main:4960 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-13 19:48:59  [ main:4968 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-13 19:48:59  [ main:4975 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-13 19:49:00  [ main:6111 ] - [ DEBUG ]  ==>  Preparing: select * from human_file where human_file_status=0 order by human_id limit (?-1)*?,?*? 
+2017-03-13 19:49:00  [ main:6191 ] - [ DEBUG ]  ==> Parameters: 1(Integer), 1(Integer), 1(Integer), 1(Integer)
+2017-03-13 19:49:00  [ main:6240 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-13 19:49:00  [ main:6302 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-13 19:50:38  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:50:38 CST 2017]; root of context hierarchy
+2017-03-13 19:50:38  [ main:177 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-13 19:50:40  [ main:1600 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-13 19:50:42  [ main:3405 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findByPage(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:50:42  [ main:3407 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-13 19:50:42  [ main:3408 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-13 19:50:42  [ main:3409 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:50:42  [ main:3410 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:50:42  [ main:3411 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:50:42  [ main:3889 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:50:38 CST 2017]; root of context hierarchy
+2017-03-13 19:50:42  [ main:4060 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:50:38 CST 2017]; root of context hierarchy
+2017-03-13 19:50:43  [ main:4276 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-13 19:50:43  [ main:4286 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-13 19:50:43  [ main:4292 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-13 19:50:43  [ main:4299 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-13 19:50:44  [ main:5402 ] - [ DEBUG ]  ==>  Preparing: select * from human_file where human_file_status=0 order by human_id limit (?-1)*?,?*? 
+2017-03-13 19:50:44  [ main:5485 ] - [ DEBUG ]  ==> Parameters: 1(Integer), 1(Integer), 1(Integer), 1(Integer)
+2017-03-13 19:50:44  [ main:5534 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-13 19:50:44  [ main:5591 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-13 19:52:34  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:52:34 CST 2017]; root of context hierarchy
+2017-03-13 19:52:34  [ main:176 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-13 19:52:36  [ main:1745 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-13 19:52:38  [ main:3541 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findByPage(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:52:38  [ main:3544 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-13 19:52:38  [ main:3544 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:52:38  [ main:3549 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-13 19:52:38  [ main:3551 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:52:38  [ main:3554 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:52:38  [ main:4037 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:52:34 CST 2017]; root of context hierarchy
+2017-03-13 19:52:38  [ main:4196 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@4947d3: startup date [Mon Mar 13 19:52:34 CST 2017]; root of context hierarchy
+2017-03-13 19:52:38  [ main:4417 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-13 19:52:39  [ main:4427 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-13 19:52:39  [ main:4435 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-13 19:52:39  [ main:4441 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-13 19:52:40  [ main:5540 ] - [ DEBUG ]  ==>  Preparing: select * from human_file where human_file_status=0 order by human_id limit 0,1 
+2017-03-13 19:52:40  [ main:5628 ] - [ DEBUG ]  ==> Parameters: 
+2017-03-13 19:52:40  [ main:5694 ] - [ DEBUG ]  <==      Total: 1
+2017-03-13 19:54:48  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@fe9e47: startup date [Mon Mar 13 19:54:48 CST 2017]; root of context hierarchy
+2017-03-13 19:54:48  [ main:194 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-13 19:54:50  [ main:1718 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-13 19:54:51  [ main:3524 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findByPage(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:54:51  [ main:3527 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-13 19:54:51  [ main:3529 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:54:51  [ main:3530 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-13 19:54:51  [ main:3530 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:54:51  [ main:3531 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-13 19:54:52  [ main:4029 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fe9e47: startup date [Mon Mar 13 19:54:48 CST 2017]; root of context hierarchy
+2017-03-13 19:54:52  [ main:4198 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fe9e47: startup date [Mon Mar 13 19:54:48 CST 2017]; root of context hierarchy
+2017-03-13 19:54:52  [ main:4425 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-13 19:54:52  [ main:4433 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-13 19:54:52  [ main:4441 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-13 19:54:52  [ main:4451 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-13 19:54:53  [ main:5544 ] - [ DEBUG ]  ==>  Preparing: select * from human_file where human_file_status=0 order by human_id limit ?,? 
+2017-03-13 19:54:53  [ main:5629 ] - [ DEBUG ]  ==> Parameters: 0(Integer), 1(Integer)
+2017-03-13 19:54:53  [ main:5699 ] - [ DEBUG ]  <==      Total: 1

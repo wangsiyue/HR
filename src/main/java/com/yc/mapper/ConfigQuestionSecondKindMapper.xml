@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.mapper.ConfigQuestionSecondKindMapper">
+	<select id="findByFirstId" resultType="ConfigQuestionSecondKind" parameterType="ConfigQuestionSecondKind">
+		select *  from config_question_second_kind where first_kind_id=#{first_kind_id}
+	</select>
+	<select id="find" resultType="ConfigQuestionSecondKind">
+		select *  from config_question_second_kind
+	</select>
+	
+	<select id="findByID" resultType="ConfigQuestionSecondKind" parameterType="ConfigQuestionSecondKind">
+		select * from config_question_second_kind where qsk_id=#{qsk_id}
+	</select>
+	
+	<select id="getMaxSecondKindId" resultType="ConfigQuestionSecondKind">
+		select * from config_question_second_kind where first_kind_id in
+			(select MAX(second_kind_id) from config_question_second_kind)
+	</select>
+	
+	<insert id="add" parameterType="ConfigQuestionSecondKind">
+		insert into config_question_second_kind(first_kind_id,first_kind_name,second_kind_id,second_kind_name)
+		values(#{first_kind_id},#{first_kind_name},#{second_kind_id},#{second_kind_name})
+	</insert>
+	
+	<!-- 更改-->
+	<update id="changeConfigQuestionSecondkind" parameterType="ConfigQuestionSecondKind">
+		update config_question_second_kind set second_kind_name=#{second_kind_name}
+		where qsk_id=#{qsk_id}
+	</update>
+	
+	<!-- 删除 -->
+	<delete id="delete" parameterType="ConfigQuestionSecondKind">
+		delete from config_question_second_kind where qsk_id=#{qsk_id}
+	</delete>
+	
+</mapper>

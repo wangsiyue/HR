@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.mapper.EngageSubjectsMapper">
+	<insert id="addEngageSubjects" parameterType="EngageSubjects">
+	insert into engage_subjects
+	(first_kind_id,first_kind_name,second_kind_id,second_kind_name,register,
+	regist_time,derivation,content,key_a,key_b,key_c,key_d,key_e,correct_key,changer,change_time) 
+	values(#{first_kind_id},#{first_kind_name},#{second_kind_id},#{second_kind_name},
+	#{register},#{regist_time},#{derivation},#{content},#{key_a},#{key_b},#{key_c},#{key_d},
+	#{key_e},#{correct_key},null,null)
+	</insert>
+	
+	<!-- 考试出题时的查询 -->
+	<select id="find" resultType="EngageSubjects">
+		select first_kind_id,first_kind_name,second_kind_id,second_kind_name,count(second_kind_name) count
+		 from engage_subjects group by second_kind_name
+	</select>
+	
+	<!-- 应聘者考试随机产生题目 -->
+	<select id="getRandomSubject"  parameterType="EngageSubjects" resultType="EngageSubjects">
+		select * from engage_subjects where second_kind_id=#{second_kind_id} and first_kind_id=#{first_kind_id}  order by RAND() limit #{limit}
+	</select> 
+	
+	<select id="findEngageSubjects" resultType="EngageSubjects" parameterType="EngageSubjects">
+		select sub_id,first_kind_id,first_kind_name,second_kind_id,
+	second_kind_name,register,regist_time,derivation,
+	content,key_a,key_b,key_c,key_d,key_e,correct_key,
+	changer,change_time from engage_subjects where 1=1 
+	<if test="sub_id!=null">
+		and sub_id=#{sub_id}
+	</if>
+	</select>
+	
+	<select id="findBy" parameterType="EngageSubjects" resultType="EngageSubjects">
+		select * from engage_subjects where 1=1 
+		<if test="first_kind_name != ''">
+			and first_kind_name like #{first_kind_name}
+		</if>
+		 <if test="key != ''">
+			and content like #{key} or register like #{key} or derivation like #{key} 
+		</if>
+		<if test="minTime!=null and maxTime!=null">
+			and regist_time  &gt;  #{ minTime} and regist_time &lt; #{ maxTime}
+		</if>
+	</select>
+	
+	<select id="findEngageSubjectByConditionAndPage" parameterType="EngageSubjects" resultType="EngageSubjects">
+		select * from engage_subjects where 1=1 
+		<if test="first_kind_name != ''">
+			and first_kind_name like #{first_kind_name}
+		</if>
+		 <if test="key != ''">
+			and content like #{key} or register like #{key} or derivation like #{key} 
+		</if>
+		<if test="minTime!=null and maxTime!=null">
+			and regist_time  &gt;  #{ minTime} and regist_time &lt; #{ maxTime}
+		</if>
+		order by sub_id limit #{page},#{rows}
+	</select>
+	
+	<update id="changeEngageSubjects" parameterType="EngageSubjects">
+	update engage_subjects set first_kind_id=#{first_kind_id},first_kind_name=#{first_kind_name},
+	second_kind_id=#{second_kind_id},second_kind_name=#{second_kind_name},derivation=#{derivation},
+	content=#{content},key_a=#{key_a},key_b=#{key_b},key_c=#{key_c},key_d=#{key_d},key_e=#{key_e},
+	correct_key=#{correct_key},changer=#{changer},change_time=#{change_time} where
+	sub_id=#{sub_id}
+	</update>
+	
+	<delete id="deleteEngageSubjects" parameterType="EngageSubjects">
+		delete from engage_subjects where sub_id=#{sub_id}
+	</delete>
+</mapper>

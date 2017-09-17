@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.mapper.ConfigFileSecondKindMapper">
+	<select id="findAll" resultType="ConfigFileSecondKind">
+		select fsk_id,first_kind_id,first_kind_name,second_kind_id,second_kind_name,second_salary_id,second_sale_id from config_file_second_kind
+	</select>
+	
+	<select id="findByFirstKindID" resultType="ConfigFileSecondKind" parameterType="ConfigFileSecondKind">
+		select fsk_id,first_kind_id,first_kind_name,second_kind_id,second_kind_name,second_salary_id,second_sale_id from config_file_second_kind
+		where first_kind_id=#{first_kind_id}
+	</select>
+	
+	<select id="getMaxSecondKindId" resultType="ConfigFileSecondKind">
+		select * from config_file_second_kind where second_kind_id in
+			(select MAX(second_kind_id) from config_file_second_kind)
+	</select>
+	
+	<insert id="add" parameterType="ConfigFileSecondKind">
+		insert into config_file_second_kind(first_kind_id,first_kind_name,second_kind_id,second_kind_name,second_salary_id,second_sale_id)
+		 values(#{first_kind_id},#{first_kind_name},#{second_kind_id},#{second_kind_name},#{second_salary_id},#{second_sale_id})
+	</insert>
+	
+	<select id="findBySecondKindId" parameterType="ConfigFileSecondKind" resultType="ConfigFileSecondKind">
+		select fsk_id,first_kind_id,first_kind_name,second_kind_id,second_kind_name,second_salary_id,second_sale_id from config_file_second_kind
+		where fsk_id=#{fsk_id}
+	</select>
+	
+	<!-- 更改二级机构 -->
+	<update id="changeConfigFileSecondkind" parameterType="ConfigFileSecondKind">
+		update config_file_second_kind set second_salary_id=#{second_salary_id},second_sale_id=#{second_sale_id} where fsk_id=#{fsk_id}
+	</update>
+	
+	<!-- 删除 -->
+	<delete id="delConfigFileSecondKind" parameterType="ConfigFileFirstKind">
+		delete from config_file_second_kind where fsk_id=#{fsk_id}
+	</delete>
+</mapper>

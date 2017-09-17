@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.mapper.HumanFileMapper">
+	<insert id="addHumanFile" parameterType="HumanFile">
+		insert into
+		human_file(human_id,first_kind_id,first_kind_name,second_kind_id,
+		second_kind_name,third_kind_id,third_kind_name,human_name,human_address,human_postcode,human_pro_designation,
+		human_major_kind_id,human_major_kind_name,human_major_id,hunma_major_name,human_telephone,human_mobilephone,
+		human_bank,human_account,human_qq,human_email,human_hobby,human_speciality,human_sex,
+		human_religion,human_party,human_nationality,human_race,human_birthday,human_birthplace,human_age,
+		human_educated_degree,human_educated_years,human_educated_major,human_society_security_id,human_id_card,remark,salary_standard_id,
+		salary_standard_name,salary_sum,demand_salaray_sum,paid_salary_sum,major_change_amount,bonus_amount,training_amount,file_chang_amount,
+		human_histroy_records,human_family_membership,human_picture,attachment_name,check_status,register,checker,
+		changer,regist_time,check_time,change_time,lastly_change_time,delete_time,recovery_time,human_file_status)
+		values(#{human_id},#{first_kind_id},#{first_kind_name},#{second_kind_id},#{
+		second_kind_name},#{third_kind_id},#{third_kind_name},#{human_name},#{human_address},#{human_postcode},#{human_pro_designation},#{
+		human_major_kind_id},#{human_major_kind_name},#{human_major_id},#{hunma_major_name},#{human_telephone},#{human_mobilephone},#{
+		human_bank},#{human_account},#{human_qq},#{human_email},#{human_hobby},#{human_speciality},#{human_sex},#{human_religion},#{human_party},
+		#{human_nationality},#{human_race},#{human_birthday},#{human_birthplace},#{human_age},
+		#{human_educated_degree},#{human_educated_years},#{human_educated_major},#{human_society_security_id},#{human_id_card},#{remark},#{salary_standard_id},#{
+		salary_standard_name},#{salary_sum},#{demand_salaray_sum},#{paid_salary_sum},0,0,0,0,#{
+		human_histroy_records},#{human_family_membership},#{human_picture},#{attachment_name},0,#{register},#{checker},#{
+		changer},#{regist_time},#{check_time},#{change_time},#{lastly_change_time},#{delete_time},#{recovery_time},#{human_file_status})
+	</insert>
+	
+	<update id="checkHumanFile" parameterType="HumanFile">
+		update human_file set
+		human_name=#{human_name},human_address=#{human_address},human_postcode=#{human_postcode},
+		human_pro_designation=#{human_pro_designation},human_telephone=#{human_telephone},
+		human_mobilephone=#{human_mobilephone},
+		human_bank=#{human_bank},human_account=#{human_account},human_qq=#{human_qq},
+		human_email=#{human_email},human_hobby=#{human_hobby},human_speciality=#{human_speciality},
+		human_sex=#{human_sex},human_religion=#{human_religion},human_party=#{human_party},
+		human_nationality=#{human_nationality},human_race=#{human_race},human_birthday=#{human_birthday},
+		human_birthplace=#{human_birthplace},human_age=#{human_age},human_educated_degree=#{human_educated_degree},
+		human_educated_years=#{human_educated_years},human_educated_major=#{human_educated_major},
+		human_society_security_id=#{human_society_security_id},
+		human_id_card=#{human_id_card},remark=#{remark},salary_standard_id=#{salary_standard_id},
+		salary_standard_name=#{salary_standard_name},salary_sum=#{salary_sum},
+		demand_salaray_sum=#{demand_salaray_sum},paid_salary_sum=#{paid_salary_sum},file_chang_amount=#{file_chang_amount},
+		human_histroy_records=#{human_histroy_records},human_family_membership=#{human_family_membership},
+		human_picture=#{human_picture},check_status=1,check_time=#{check_time} where human_id=#{human_id}
+	</update>
+	
+
+	<!-- 更具id查看详情 -->
+	<select id="findById" parameterType="HumanFile" resultType="HumanFile">
+		select
+		human_id,first_kind_id,first_kind_name,second_kind_id,second_kind_name,
+		third_kind_id,third_kind_name,human_name,human_address,human_postcode,human_pro_designation,
+		human_major_kind_id,human_major_kind_name,human_major_id,hunma_major_name,human_telephone,
+		human_mobilephone,human_bank,human_account,human_qq,human_email,human_hobby,human_speciality,
+		human_sex,human_religion,human_party,human_nationality,human_race,human_birthday,human_birthplace,
+		human_age,human_educated_degree,human_educated_years,human_educated_major,human_society_security_id,
+		human_id_card,remark,salary_standard_id,salary_standard_name,salary_sum,demand_salaray_sum,
+		paid_salary_sum,major_change_amount,bonus_amount,training_amount,file_chang_amount,human_histroy_records,
+		human_family_membership,human_picture,attachment_name,check_status,register,checker,changer,regist_time,
+		check_time,change_time,lastly_change_time,delete_time,recovery_time,human_file_status
+		from human_file
+		<trim prefix="where" prefixOverrides="and">
+			<if test="human_id != null">
+				and human_id=#{human_id}
+			</if>
+		</trim>
+	</select>
+
+	<!-- 查看所有符合条件的档案 -->
+	<select id="findAllMatchConditionFile" resultType="HumanFile"
+		parameterType="HumanFile">
+		select
+		human_id,human_name,human_sex,first_kind_name,second_kind_name,third_kind_name,
+		human_major_kind_name,hunma_major_name from human_file where 1=1 
+		<if test="first_kind_id!= ''">
+			and first_kind_id=#{first_kind_id}
+		</if>
+		<if test="second_kind_id!= ''">
+			and second_kind_id=#{second_kind_id}
+		</if>
+		<if test="third_kind_id!= ''">
+			and third_kind_id=#{third_kind_id}
+		</if>
+		<if test="human_major_kind_id!= ''">
+			and human_major_kind_id=#{human_major_kind_id}
+		</if>
+		<if test="human_major_id != ''">
+			and human_major_id=#{ human_major_id}
+		</if>
+		<if test="minTime!='' and maxTime!=''">
+			and regist_time &gt; #{ minTime} and regist_time &lt; #{
+			maxTime}
+		</if>
+		<!-- 删除操作查询 -->
+		<if test="check_status != null">
+			and check_status=#{ check_status}
+		</if>
+		<if test="human_file_status != ''">
+			and human_file_status=#{ human_file_status}
+		</if>
+	</select>
+
+	<!-- 查询条件包括：员工所在机构（I,II,III），职位分类和名称和建档时间 并分页 -->
+	<select id="findByConditionAndPage" parameterType="HumanFile"
+		resultType="HumanFile">
+		select
+		human_id,human_name,human_sex,first_kind_name,second_kind_name,third_kind_name,
+		human_major_kind_name,hunma_major_name from human_file where 1=1
+		<if test="first_kind_id!= ''">
+			and first_kind_id=#{first_kind_id}
+		</if>
+		<if test="second_kind_id!= ''">
+			and second_kind_id=#{second_kind_id}
+		</if>
+		<if test="third_kind_id!= ''">
+			and third_kind_id=#{third_kind_id}
+		</if>
+		<if test="human_major_kind_id!= ''">
+			and human_major_kind_id=#{human_major_kind_id}
+		</if>
+		<if test="human_major_id != ''">
+			and human_major_id=#{ human_major_id}
+		</if>
+		<if test="minTime!='' and maxTime!=''">
+			and regist_time &gt; #{ minTime} and regist_time &lt; #{
+			maxTime}
+		</if>
+		<!-- 删除操作查询 -->
+		<if test="check_status != null">
+			and check_status=#{ check_status}
+		</if>
+		<if test="human_file_status != ''">
+			and human_file_status=#{ human_file_status}
+		</if>
+		order by human_id limit #{page},#{rows}
+	</select>
+
+	<!-- 查看所有需要复核的档案 -->
+	<select id="findCheckFile" resultType="HumanFile">
+		select
+		human_id,human_name,human_sex,first_kind_name,second_kind_name,third_kind_name,human_pro_designation
+		from human_file where check_status=0 
+	</select>
+
+	<!-- 分页查询所有复核档案 -->
+	<select id="findByPage" resultType="HumanFile" parameterType="humanFile">
+		select
+		human_id,human_name,human_sex,first_kind_name,second_kind_name,third_kind_name,human_pro_designation
+		from human_file
+		where human_file_status=0 order by human_id limit
+		#{page},#{rows}
+	</select>
+
+	<!-- 可修改除档案编号、所属机构和职位外的员工信息 -->
+	<update id="updateHumanFile" parameterType="HumanFile">
+		update human_file set
+		human_name=#{human_name},human_address=#{human_address},human_postcode=#{human_postcode},
+		human_pro_designation=#{human_pro_designation},human_telephone=#{human_telephone},
+		human_mobilephone=#{human_mobilephone},
+		human_bank=#{human_bank},human_account=#{human_account},human_qq=#{human_qq},
+		human_email=#{human_email},human_hobby=#{human_hobby},human_speciality=#{human_speciality},
+		human_sex=#{human_sex},human_religion=#{human_religion},human_party=#{human_party},
+		human_nationality=#{human_nationality},human_race=#{human_race},human_birthday=#{human_birthday},
+		human_birthplace=#{human_birthplace},human_age=#{human_age},human_educated_degree=#{human_educated_degree},
+		human_educated_years=#{human_educated_years},human_educated_major=#{human_educated_major},
+		human_society_security_id=#{human_society_security_id},
+		human_id_card=#{human_id_card},remark=#{remark},salary_standard_id=#{salary_standard_id},
+		salary_standard_name=#{salary_standard_name},salary_sum=#{salary_sum},
+		demand_salaray_sum=#{demand_salaray_sum},paid_salary_sum=#{paid_salary_sum},
+		file_chang_amount=#{file_chang_amount},
+		human_histroy_records=#{human_histroy_records},human_family_membership=#{human_family_membership},
+		human_picture=#{human_picture},change_time=#{change_time},changer=#{changer},lastly_change_time=#{lastly_change_time},
+		file_chang_amount=#{file_chang_amount} where human_id=#{human_id}
+	</update>
+
+	<!-- 查找可以删除的档案 角色为“系统管理员”的档案不能删除。 状态为“待复核”的员工档案不能删除。 -->
+	<select id="findCanDelHumanFile">
+		select * from human_file where check_status=1 and
+		human_file_status=0
+	</select>
+
+	<!-- 删除文档信息 即将状态该为human_file_status1 delete_time : 档案删除时间 human_file_status 
+		: 档案状态 -->
+	<update id="delHumanFile" parameterType="HumanFile">
+		update human_file set
+		delete_time=#{delete_time},recovery_time=null,human_file_status=1
+		where human_id=#{human_id}
+	</update>
+
+	<!-- 档案恢复 -->
+	<update id="recoveryHumanFile" parameterType="HumanFile">
+		update human_file
+		set
+		recovery_time=#{recovery_time},delete_time=null,human_file_status=0
+		where human_id=#{human_id}
+	</update>
+
+	<!-- 按I级机构或II级机构列出需要进行发放登记的薪酬发放单 -->
+	<select id="findSalaryGrantByFirstKind" resultType="HumanFile">
+		select first_kind_id,first_kind_name,count(*) count,sum(salary_sum)
+		salary_sum,sum(paid_salary_sum) paid_salary_sum from
+		(select * from human_file WHERE paid_salary_sum=0 and first_kind_id!='') s
+		group by first_kind_name
+	</select>
+
+	<select id="findSalaryGrantBySecondKind" resultType="HumanFile">
+		select
+		first_kind_id,first_kind_name,second_kind_id,second_kind_name,count(*)
+		count,sum(salary_sum) salary_sum,sum(paid_salary_sum) paid_salary_sum
+		from
+		(select * from human_file WHERE paid_salary_sum=0 and second_kind_id!='') s
+		group by second_kind_name
+	</select>
+
+	<select id="findByFirstOrSecondId" resultType="HumanFile"
+		parameterType="HumanFile">
+		select * from human_file where salary_standard_id!='' and first_kind_id=#{first_kind_id} 
+		<if test="second_kind_id!= null">
+			and second_kind_id=#{second_kind_id}
+		</if>
+		and paid_salary_sum=0
+	</select>
+
+	<!-- 根据human_id修改实发工资 -->
+	<update id="updPaidSalarySum" parameterType="HumanFile">
+		update human_file set paid_salary_sum=#{paid_salary_sum} where
+		human_id=#{human_id}
+	</update>
+	
+	
+	<update id="updatestatus0" parameterType="HumanFile">
+		update human_file set
+		human_file_status=0 where human_id=#{human_id}
+	</update>
+
+	<update id="updatestatus1" parameterType="HumanFile">
+		update human_file set
+		human_file_status=1 where human_id=#{human_id}
+	</update>
+
+	<select id="findBysex" resultType="HumanFile">
+		select * from human_file
+		where 1=1 and human_sex=#{human_sex} and
+		human_file_status=0
+		<if test="page!=null">
+			and huf_id LIMIT #{page},#{rows} 
+		</if>
+	</select>
+	<select id="findByName" resultType="HumanFile">
+		select * from human_file
+		where 1=1 and human_name=#{human_name} and 
+		human_file_status=0
+		<if test="page!=null">
+			and huf_id LIMIT #{page},#{rows}
+		</if>
+	</select>
+	<select id="AllfindByPage" parameterType="HumanFile" resultType="HumanFile">
+		select * from human_file
+		where human_file_status=0 
+		<if test="page!=null">
+			and huf_id LIMIT #{page},#{rows}
+		</if>
+	</select>
+	<select id="findAll" resultType="HumanFile">
+		select * from
+		human_file
+	</select>
+
+	<select id="selectOne" resultType="HumanFile">
+		select * from human_file where
+		huf_id=#{huf_id}
+	</select>
+
+	<select id="select1" resultType="HumanFile">
+		select * from
+		human_file where
+		human_id=#{human_id}
+	</select>
+	
+	
+</mapper>

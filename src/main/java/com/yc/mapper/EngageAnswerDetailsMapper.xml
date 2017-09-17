@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.mapper.EngageAnswerDetailsMapper">
+	
+	<select id="findEngageAnswerDetails" resultType="EngageAnswerDetails" parameterType="EngageAnswerDetails">
+		select and_id,answer_number,subject_id,answer 
+		from engage_answer_details
+		where  answer_number=#{answer_number}
+	</select>
+	
+	<insert id="addEngageAnswerDetails" parameterType="EngageAnswerDetails">
+		insert into engage_answer_details(answer_number,subject_id,answer)
+	 	values(#{answer_number},#{subject_id},#{answer})
+	</insert>
+</mapper>

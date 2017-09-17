@@ -1,0 +1,451 @@
+2017-03-04 10:19:00  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@fa6824: startup date [Sat Mar 04 10:19:00 CST 2017]; root of context hierarchy
+2017-03-04 10:19:00  [ main:48 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:19:02  [ main:1514 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:19:03  [ main:2869 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fa6824: startup date [Sat Mar 04 10:19:00 CST 2017]; root of context hierarchy
+2017-03-04 10:19:03  [ main:3011 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fa6824: startup date [Sat Mar 04 10:19:00 CST 2017]; root of context hierarchy
+2017-03-04 10:19:03  [ main:3101 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:19:03  [ main:3104 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:21:10  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:21:10 CST 2017]; root of context hierarchy
+2017-03-04 10:21:11  [ main:57 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:21:11  [ main:639 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:21:12  [ main:1077 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:21:10 CST 2017]; root of context hierarchy
+2017-03-04 10:21:12  [ main:1143 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:21:10 CST 2017]; root of context hierarchy
+2017-03-04 10:21:12  [ main:1227 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:21:12  [ main:1230 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:26:07  [ main:1 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:26:07 CST 2017]; root of context hierarchy
+2017-03-04 10:26:07  [ main:71 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:26:08  [ main:693 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:26:08  [ main:1112 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:26:07 CST 2017]; root of context hierarchy
+2017-03-04 10:26:08  [ main:1168 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:26:07 CST 2017]; root of context hierarchy
+2017-03-04 10:26:08  [ main:1262 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:26:08  [ main:1265 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:27:37  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:27:37 CST 2017]; root of context hierarchy
+2017-03-04 10:27:37  [ main:49 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:27:38  [ main:532 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:27:38  [ main:943 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:27:37 CST 2017]; root of context hierarchy
+2017-03-04 10:27:38  [ main:1000 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:27:37 CST 2017]; root of context hierarchy
+2017-03-04 10:27:38  [ main:1090 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:27:38  [ main:1093 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:29:18  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:29:18 CST 2017]; root of context hierarchy
+2017-03-04 10:29:18  [ main:50 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:29:19  [ main:544 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:29:19  [ main:920 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:29:18 CST 2017]; root of context hierarchy
+2017-03-04 10:29:19  [ main:983 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:29:18 CST 2017]; root of context hierarchy
+2017-03-04 10:29:19  [ main:1080 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:29:19  [ main:1085 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:33:56  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:33:56 CST 2017]; root of context hierarchy
+2017-03-04 10:33:57  [ main:62 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:33:57  [ main:574 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:33:57  [ main:977 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:33:56 CST 2017]; root of context hierarchy
+2017-03-04 10:33:58  [ main:1034 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:33:56 CST 2017]; root of context hierarchy
+2017-03-04 10:33:58  [ main:1115 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:33:58  [ main:1118 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:37:37  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:37:37 CST 2017]; root of context hierarchy
+2017-03-04 10:37:37  [ main:53 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:37:38  [ main:579 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:37:38  [ main:964 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:37:37 CST 2017]; root of context hierarchy
+2017-03-04 10:37:38  [ main:1021 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:37:37 CST 2017]; root of context hierarchy
+2017-03-04 10:37:38  [ main:1104 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:37:38  [ main:1109 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:41:36  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:41:36 CST 2017]; root of context hierarchy
+2017-03-04 10:41:36  [ main:53 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:41:36  [ main:538 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:41:37  [ main:946 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:41:36 CST 2017]; root of context hierarchy
+2017-03-04 10:41:37  [ main:1008 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:41:36 CST 2017]; root of context hierarchy
+2017-03-04 10:41:37  [ main:1096 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:41:37  [ main:1100 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:41:44  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 10:41:44 CST 2017]; root of context hierarchy
+2017-03-04 10:41:44  [ main:61 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:41:45  [ main:558 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:41:45  [ main:947 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 10:41:44 CST 2017]; root of context hierarchy
+2017-03-04 10:41:45  [ main:1005 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 10:41:44 CST 2017]; root of context hierarchy
+2017-03-04 10:41:45  [ main:1087 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:41:45  [ main:1091 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:42:16  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1eb424b: startup date [Sat Mar 04 10:42:16 CST 2017]; root of context hierarchy
+2017-03-04 10:42:16  [ main:79 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:42:17  [ main:585 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:42:17  [ main:978 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1eb424b: startup date [Sat Mar 04 10:42:16 CST 2017]; root of context hierarchy
+2017-03-04 10:42:17  [ main:1039 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1eb424b: startup date [Sat Mar 04 10:42:16 CST 2017]; root of context hierarchy
+2017-03-04 10:42:18  [ main:1121 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:42:18  [ main:1125 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:45:45  [ main:1 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1cb1d37: startup date [Sat Mar 04 10:45:45 CST 2017]; root of context hierarchy
+2017-03-04 10:45:46  [ main:82 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:45:46  [ main:585 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:45:46  [ main:999 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1cb1d37: startup date [Sat Mar 04 10:45:45 CST 2017]; root of context hierarchy
+2017-03-04 10:45:47  [ main:1056 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1cb1d37: startup date [Sat Mar 04 10:45:45 CST 2017]; root of context hierarchy
+2017-03-04 10:45:47  [ main:1141 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:45:47  [ main:1144 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:49:01  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1cb1d37: startup date [Sat Mar 04 10:49:01 CST 2017]; root of context hierarchy
+2017-03-04 10:49:01  [ main:52 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:49:01  [ main:578 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:49:02  [ main:948 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1cb1d37: startup date [Sat Mar 04 10:49:01 CST 2017]; root of context hierarchy
+2017-03-04 10:49:02  [ main:1004 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1cb1d37: startup date [Sat Mar 04 10:49:01 CST 2017]; root of context hierarchy
+2017-03-04 10:49:02  [ main:1089 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:49:02  [ main:1092 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:51:23  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1cb1d37: startup date [Sat Mar 04 10:51:23 CST 2017]; root of context hierarchy
+2017-03-04 10:51:23  [ main:55 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:51:24  [ main:559 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:51:24  [ main:941 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1cb1d37: startup date [Sat Mar 04 10:51:23 CST 2017]; root of context hierarchy
+2017-03-04 10:51:24  [ main:997 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1cb1d37: startup date [Sat Mar 04 10:51:23 CST 2017]; root of context hierarchy
+2017-03-04 10:51:24  [ main:1080 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:51:24  [ main:1083 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:52:13  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 10:52:13 CST 2017]; root of context hierarchy
+2017-03-04 10:52:13  [ main:90 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:52:13  [ main:638 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:52:14  [ main:1042 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 10:52:13 CST 2017]; root of context hierarchy
+2017-03-04 10:52:14  [ main:1102 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 10:52:13 CST 2017]; root of context hierarchy
+2017-03-04 10:52:14  [ main:1202 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:52:14  [ main:1205 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:52:35  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:52:35 CST 2017]; root of context hierarchy
+2017-03-04 10:52:35  [ main:49 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:52:35  [ main:574 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:52:35  [ main:961 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:52:35 CST 2017]; root of context hierarchy
+2017-03-04 10:52:36  [ main:1018 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:52:35 CST 2017]; root of context hierarchy
+2017-03-04 10:52:36  [ main:1105 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:52:36  [ main:1108 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:52:50  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:52:50 CST 2017]; root of context hierarchy
+2017-03-04 10:52:51  [ main:56 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:52:51  [ main:541 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:52:51  [ main:973 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:52:50 CST 2017]; root of context hierarchy
+2017-03-04 10:52:52  [ main:1038 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:52:50 CST 2017]; root of context hierarchy
+2017-03-04 10:52:52  [ main:1121 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:52:52  [ main:1124 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:53:45  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:53:45 CST 2017]; root of context hierarchy
+2017-03-04 10:53:45  [ main:50 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:53:45  [ main:566 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:53:46  [ main:963 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:53:45 CST 2017]; root of context hierarchy
+2017-03-04 10:53:46  [ main:1022 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:53:45 CST 2017]; root of context hierarchy
+2017-03-04 10:53:46  [ main:1111 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:53:46  [ main:1115 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:55:09  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:55:09 CST 2017]; root of context hierarchy
+2017-03-04 10:55:09  [ main:52 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:55:10  [ main:559 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:55:10  [ main:949 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:55:09 CST 2017]; root of context hierarchy
+2017-03-04 10:55:10  [ main:1009 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:55:09 CST 2017]; root of context hierarchy
+2017-03-04 10:55:10  [ main:1095 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:55:10  [ main:1098 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:57:14  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:57:14 CST 2017]; root of context hierarchy
+2017-03-04 10:57:14  [ main:56 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:57:14  [ main:548 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:57:15  [ main:950 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:57:14 CST 2017]; root of context hierarchy
+2017-03-04 10:57:15  [ main:1008 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 10:57:14 CST 2017]; root of context hierarchy
+2017-03-04 10:57:15  [ main:1089 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:57:15  [ main:1092 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 10:58:28  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:58:28 CST 2017]; root of context hierarchy
+2017-03-04 10:58:28  [ main:50 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 10:58:29  [ main:542 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 10:58:29  [ main:961 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:58:28 CST 2017]; root of context hierarchy
+2017-03-04 10:58:29  [ main:1016 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 10:58:28 CST 2017]; root of context hierarchy
+2017-03-04 10:58:29  [ main:1098 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 10:58:29  [ main:1102 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:00:50  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:00:50 CST 2017]; root of context hierarchy
+2017-03-04 11:00:50  [ main:51 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:00:51  [ main:516 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:00:51  [ main:938 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:00:50 CST 2017]; root of context hierarchy
+2017-03-04 11:00:51  [ main:998 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:00:50 CST 2017]; root of context hierarchy
+2017-03-04 11:00:51  [ main:1080 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:00:51  [ main:1083 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:02:41  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:02:41 CST 2017]; root of context hierarchy
+2017-03-04 11:02:41  [ main:48 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:02:41  [ main:573 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:02:42  [ main:951 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:02:41 CST 2017]; root of context hierarchy
+2017-03-04 11:02:42  [ main:1007 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:02:41 CST 2017]; root of context hierarchy
+2017-03-04 11:02:42  [ main:1090 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:02:42  [ main:1093 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:08:09  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@fe861: startup date [Sat Mar 04 11:08:09 CST 2017]; root of context hierarchy
+2017-03-04 11:08:09  [ main:47 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:08:09  [ main:641 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:08:10  [ main:1052 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fe861: startup date [Sat Mar 04 11:08:09 CST 2017]; root of context hierarchy
+2017-03-04 11:08:10  [ main:1108 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fe861: startup date [Sat Mar 04 11:08:09 CST 2017]; root of context hierarchy
+2017-03-04 11:08:10  [ main:1194 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:08:10  [ main:1197 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:08:11  [ main:1740 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bc7fa0: startup date [Sat Mar 04 11:08:11 CST 2017]; root of context hierarchy
+2017-03-04 11:08:11  [ main:1741 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:08:11  [ main:1813 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:08:11  [ main:1905 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@bc7fa0: startup date [Sat Mar 04 11:08:11 CST 2017]; root of context hierarchy
+2017-03-04 11:08:11  [ main:1931 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@bc7fa0: startup date [Sat Mar 04 11:08:11 CST 2017]; root of context hierarchy
+2017-03-04 11:08:11  [ main:1975 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:08:11  [ main:1977 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:08:11  [ main:2064 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c663fc: startup date [Sat Mar 04 11:08:11 CST 2017]; root of context hierarchy
+2017-03-04 11:08:11  [ main:2064 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:08:11  [ main:2118 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:08:11  [ main:2194 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1c663fc: startup date [Sat Mar 04 11:08:11 CST 2017]; root of context hierarchy
+2017-03-04 11:08:11  [ main:2219 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1c663fc: startup date [Sat Mar 04 11:08:11 CST 2017]; root of context hierarchy
+2017-03-04 11:08:11  [ main:2273 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:08:11  [ main:2275 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:11:50  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:11:50 CST 2017]; root of context hierarchy
+2017-03-04 11:11:51  [ main:58 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:11:51  [ main:545 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:11:51  [ main:978 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:11:50 CST 2017]; root of context hierarchy
+2017-03-04 11:11:51  [ main:1037 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:11:50 CST 2017]; root of context hierarchy
+2017-03-04 11:11:52  [ main:1127 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:11:52  [ main:1130 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:15:32  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 11:15:32 CST 2017]; root of context hierarchy
+2017-03-04 11:15:32  [ main:57 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:15:32  [ main:537 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:15:33  [ main:1123 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 11:15:32 CST 2017]; root of context hierarchy
+2017-03-04 11:15:33  [ main:1182 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 11:15:32 CST 2017]; root of context hierarchy
+2017-03-04 11:15:33  [ main:1267 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:15:33  [ main:1271 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:16:05  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:16:05 CST 2017]; root of context hierarchy
+2017-03-04 11:16:05  [ main:49 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:16:05  [ main:587 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:16:06  [ main:1144 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:16:05 CST 2017]; root of context hierarchy
+2017-03-04 11:16:06  [ main:1203 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:16:05 CST 2017]; root of context hierarchy
+2017-03-04 11:16:06  [ main:1287 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:16:06  [ main:1291 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:16:56  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13fd3d8: startup date [Sat Mar 04 11:16:56 CST 2017]; root of context hierarchy
+2017-03-04 11:16:56  [ main:73 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:16:57  [ main:639 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:16:58  [ main:1435 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@13fd3d8: startup date [Sat Mar 04 11:16:56 CST 2017]; root of context hierarchy
+2017-03-04 11:16:58  [ main:1510 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@13fd3d8: startup date [Sat Mar 04 11:16:56 CST 2017]; root of context hierarchy
+2017-03-04 11:16:58  [ main:1622 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:16:58  [ main:1626 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:17:48  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16d0a8c: startup date [Sat Mar 04 11:17:48 CST 2017]; root of context hierarchy
+2017-03-04 11:17:48  [ main:53 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:17:48  [ main:723 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:17:49  [ main:1502 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@16d0a8c: startup date [Sat Mar 04 11:17:48 CST 2017]; root of context hierarchy
+2017-03-04 11:17:49  [ main:1576 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@16d0a8c: startup date [Sat Mar 04 11:17:48 CST 2017]; root of context hierarchy
+2017-03-04 11:17:49  [ main:1686 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:17:49  [ main:1688 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:20:42  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:20:42 CST 2017]; root of context hierarchy
+2017-03-04 11:20:43  [ main:81 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:20:43  [ main:627 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:20:44  [ main:1217 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:20:42 CST 2017]; root of context hierarchy
+2017-03-04 11:20:44  [ main:1280 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:20:42 CST 2017]; root of context hierarchy
+2017-03-04 11:20:44  [ main:1369 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:20:44  [ main:1372 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:26:23  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:26:23 CST 2017]; root of context hierarchy
+2017-03-04 11:26:23  [ main:68 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:26:24  [ main:602 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:26:24  [ main:1176 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:26:23 CST 2017]; root of context hierarchy
+2017-03-04 11:26:25  [ main:1233 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:26:23 CST 2017]; root of context hierarchy
+2017-03-04 11:26:25  [ main:1316 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:26:25  [ main:1319 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:29:54  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:29:54 CST 2017]; root of context hierarchy
+2017-03-04 11:29:54  [ main:74 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:29:55  [ main:614 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:29:55  [ main:1161 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:29:54 CST 2017]; root of context hierarchy
+2017-03-04 11:29:55  [ main:1219 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:29:54 CST 2017]; root of context hierarchy
+2017-03-04 11:29:55  [ main:1311 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:29:55  [ main:1315 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:33:48  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:33:48 CST 2017]; root of context hierarchy
+2017-03-04 11:33:48  [ main:77 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:33:49  [ main:585 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:33:49  [ main:1162 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:33:48 CST 2017]; root of context hierarchy
+2017-03-04 11:33:49  [ main:1226 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:33:48 CST 2017]; root of context hierarchy
+2017-03-04 11:33:50  [ main:1303 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:33:50  [ main:1306 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:35:51  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1cf701c: startup date [Sat Mar 04 11:35:51 CST 2017]; root of context hierarchy
+2017-03-04 11:35:51  [ main:108 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:35:52  [ main:749 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:35:53  [ main:1501 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1cf701c: startup date [Sat Mar 04 11:35:51 CST 2017]; root of context hierarchy
+2017-03-04 11:35:53  [ main:1577 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1cf701c: startup date [Sat Mar 04 11:35:51 CST 2017]; root of context hierarchy
+2017-03-04 11:35:53  [ main:1693 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:35:53  [ main:1697 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:36:57  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1ba0281: startup date [Sat Mar 04 11:36:57 CST 2017]; root of context hierarchy
+2017-03-04 11:36:57  [ main:106 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:36:58  [ main:683 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:36:58  [ main:1207 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1ba0281: startup date [Sat Mar 04 11:36:57 CST 2017]; root of context hierarchy
+2017-03-04 11:36:58  [ main:1266 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1ba0281: startup date [Sat Mar 04 11:36:57 CST 2017]; root of context hierarchy
+2017-03-04 11:36:58  [ main:1350 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:36:58  [ main:1353 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:37:42  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 11:37:42 CST 2017]; root of context hierarchy
+2017-03-04 11:37:42  [ main:83 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:37:43  [ main:630 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:37:43  [ main:1205 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 11:37:42 CST 2017]; root of context hierarchy
+2017-03-04 11:37:44  [ main:1269 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 11:37:42 CST 2017]; root of context hierarchy
+2017-03-04 11:37:44  [ main:1355 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:37:44  [ main:1359 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:39:12  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:39:12 CST 2017]; root of context hierarchy
+2017-03-04 11:39:12  [ main:80 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:39:13  [ main:632 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:39:14  [ main:1203 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:39:12 CST 2017]; root of context hierarchy
+2017-03-04 11:39:14  [ main:1259 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 11:39:12 CST 2017]; root of context hierarchy
+2017-03-04 11:39:14  [ main:1344 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:39:14  [ main:1346 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:41:09  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 11:41:09 CST 2017]; root of context hierarchy
+2017-03-04 11:41:09  [ main:74 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:41:09  [ main:644 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:41:09  [ main:825 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'usersBizImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'basicMybatisDaoImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [Bean.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type [java.lang.String] to required type [org.springframework.core.io.Resource[]] for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:com.yc.mapper/*.xml]: class path resource [com.yc.mapper/] cannot be resolved to URL because it does not exist
+2017-03-04 11:47:54  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:47:54 CST 2017]; root of context hierarchy
+2017-03-04 11:47:54  [ main:62 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:47:54  [ main:558 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:47:55  [ main:1124 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:47:54 CST 2017]; root of context hierarchy
+2017-03-04 11:47:55  [ main:1182 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:47:54 CST 2017]; root of context hierarchy
+2017-03-04 11:47:55  [ main:1270 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:47:55  [ main:1273 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:52:56  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@fe861: startup date [Sat Mar 04 11:52:56 CST 2017]; root of context hierarchy
+2017-03-04 11:52:56  [ main:55 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:52:57  [ main:582 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:52:57  [ main:1172 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fe861: startup date [Sat Mar 04 11:52:56 CST 2017]; root of context hierarchy
+2017-03-04 11:52:57  [ main:1233 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@fe861: startup date [Sat Mar 04 11:52:56 CST 2017]; root of context hierarchy
+2017-03-04 11:52:57  [ main:1325 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:52:57  [ main:1328 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:52:58  [ main:1726 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bd15e6: startup date [Sat Mar 04 11:52:58 CST 2017]; root of context hierarchy
+2017-03-04 11:52:58  [ main:1727 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:52:58  [ main:1794 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:52:58  [ main:1934 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@bd15e6: startup date [Sat Mar 04 11:52:58 CST 2017]; root of context hierarchy
+2017-03-04 11:52:58  [ main:1954 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@bd15e6: startup date [Sat Mar 04 11:52:58 CST 2017]; root of context hierarchy
+2017-03-04 11:52:58  [ main:2013 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:52:58  [ main:2015 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:52:58  [ main:2063 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1ce70c5: startup date [Sat Mar 04 11:52:58 CST 2017]; root of context hierarchy
+2017-03-04 11:52:58  [ main:2063 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:52:58  [ main:2116 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:52:58  [ main:2234 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1ce70c5: startup date [Sat Mar 04 11:52:58 CST 2017]; root of context hierarchy
+2017-03-04 11:52:58  [ main:2256 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1ce70c5: startup date [Sat Mar 04 11:52:58 CST 2017]; root of context hierarchy
+2017-03-04 11:52:58  [ main:2297 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:52:58  [ main:2299 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:56:57  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:56:57 CST 2017]; root of context hierarchy
+2017-03-04 11:56:57  [ main:51 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:56:58  [ main:552 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:56:58  [ main:1088 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:56:57 CST 2017]; root of context hierarchy
+2017-03-04 11:56:58  [ main:1147 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:56:57 CST 2017]; root of context hierarchy
+2017-03-04 11:56:59  [ main:1229 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:56:59  [ main:1232 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 11:57:27  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:57:27 CST 2017]; root of context hierarchy
+2017-03-04 11:57:27  [ main:49 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 11:57:27  [ main:533 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 11:57:28  [ main:1070 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:57:27 CST 2017]; root of context hierarchy
+2017-03-04 11:57:28  [ main:1139 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 11:57:27 CST 2017]; root of context hierarchy
+2017-03-04 11:57:28  [ main:1219 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 11:57:28  [ main:1222 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:10:36  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 14:10:36 CST 2017]; root of context hierarchy
+2017-03-04 14:10:36  [ main:49 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:10:36  [ main:586 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:10:37  [ main:1135 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 14:10:36 CST 2017]; root of context hierarchy
+2017-03-04 14:10:37  [ main:1192 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 14:10:36 CST 2017]; root of context hierarchy
+2017-03-04 14:10:37  [ main:1270 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:10:37  [ main:1272 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:11:33  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1eb424b: startup date [Sat Mar 04 14:11:33 CST 2017]; root of context hierarchy
+2017-03-04 14:11:33  [ main:52 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:11:33  [ main:529 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:11:34  [ main:1059 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1eb424b: startup date [Sat Mar 04 14:11:33 CST 2017]; root of context hierarchy
+2017-03-04 14:11:34  [ main:1119 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1eb424b: startup date [Sat Mar 04 14:11:33 CST 2017]; root of context hierarchy
+2017-03-04 14:11:34  [ main:1206 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:11:34  [ main:1209 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:31:59  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 14:31:59 CST 2017]; root of context hierarchy
+2017-03-04 14:31:59  [ main:66 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:31:59  [ main:572 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:32:00  [ main:1139 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 14:31:59 CST 2017]; root of context hierarchy
+2017-03-04 14:32:00  [ main:1196 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 14:31:59 CST 2017]; root of context hierarchy
+2017-03-04 14:32:00  [ main:1271 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:32:00  [ main:1274 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:38:18  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:38:18 CST 2017]; root of context hierarchy
+2017-03-04 14:38:18  [ main:57 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:38:18  [ main:666 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:38:19  [ main:1083 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:38:18 CST 2017]; root of context hierarchy
+2017-03-04 14:38:19  [ main:1148 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:38:18 CST 2017]; root of context hierarchy
+2017-03-04 14:38:19  [ main:1242 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:38:19  [ main:1246 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:39:41  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 14:39:41 CST 2017]; root of context hierarchy
+2017-03-04 14:39:41  [ main:68 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:39:42  [ main:559 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:39:42  [ main:924 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 14:39:41 CST 2017]; root of context hierarchy
+2017-03-04 14:39:42  [ main:988 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 14:39:41 CST 2017]; root of context hierarchy
+2017-03-04 14:39:42  [ main:1071 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:39:42  [ main:1076 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:40:40  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:40:40 CST 2017]; root of context hierarchy
+2017-03-04 14:40:40  [ main:52 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:40:40  [ main:580 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:40:41  [ main:960 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:40:40 CST 2017]; root of context hierarchy
+2017-03-04 14:40:41  [ main:1025 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:40:40 CST 2017]; root of context hierarchy
+2017-03-04 14:40:41  [ main:1137 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:40:41  [ main:1140 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:49:15  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:49:15 CST 2017]; root of context hierarchy
+2017-03-04 14:49:15  [ main:57 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:49:16  [ main:695 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:49:17  [ main:1085 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:49:15 CST 2017]; root of context hierarchy
+2017-03-04 14:49:17  [ main:1143 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:49:15 CST 2017]; root of context hierarchy
+2017-03-04 14:49:17  [ main:1231 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:49:17  [ main:1235 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:49:19  [ main:3352 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'usersBizImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'basicMybatisDaoImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [Bean.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace.zx\hr_management_system\target\classes\com\yc\mapper\UsersMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: java.io.FileNotFoundException: http://www.mybatis.org/dtd/mybatis-3-com.yc.mapper.dtd
+2017-03-04 14:52:38  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:52:38 CST 2017]; root of context hierarchy
+2017-03-04 14:52:38  [ main:55 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:52:39  [ main:538 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:52:39  [ main:903 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:52:38 CST 2017]; root of context hierarchy
+2017-03-04 14:52:39  [ main:961 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:52:38 CST 2017]; root of context hierarchy
+2017-03-04 14:52:39  [ main:1051 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:52:39  [ main:1056 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:52:49  [ main:11417 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'usersBizImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'basicMybatisDaoImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [Bean.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace.zx\hr_management_system\target\classes\com\yc\mapper\UsersMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: java.io.FileNotFoundException: http://www.mybatis.org/dtd/mybatis-3-com.yc.mapper.dtd
+2017-03-04 14:56:55  [ main:1 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:56:55 CST 2017]; root of context hierarchy
+2017-03-04 14:56:55  [ main:63 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:56:56  [ main:582 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:56:57  [ main:1414 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:56:55 CST 2017]; root of context hierarchy
+2017-03-04 14:56:57  [ main:1474 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 14:56:55 CST 2017]; root of context hierarchy
+2017-03-04 14:56:57  [ main:1552 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:56:57  [ main:1556 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:57:31  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 14:57:31 CST 2017]; root of context hierarchy
+2017-03-04 14:57:31  [ main:65 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:57:31  [ main:536 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:57:32  [ main:1171 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 14:57:31 CST 2017]; root of context hierarchy
+2017-03-04 14:57:32  [ main:1227 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 14:57:31 CST 2017]; root of context hierarchy
+2017-03-04 14:57:32  [ main:1303 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:57:32  [ main:1305 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 14:57:43  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 14:57:43 CST 2017]; root of context hierarchy
+2017-03-04 14:57:43  [ main:58 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 14:57:44  [ main:544 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 14:57:44  [ main:1163 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 14:57:43 CST 2017]; root of context hierarchy
+2017-03-04 14:57:44  [ main:1223 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 14:57:43 CST 2017]; root of context hierarchy
+2017-03-04 14:57:45  [ main:1308 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 14:57:45  [ main:1311 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 15:01:21  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 15:01:21 CST 2017]; root of context hierarchy
+2017-03-04 15:01:21  [ main:62 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 15:01:22  [ main:558 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 15:01:23  [ main:1192 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 15:01:21 CST 2017]; root of context hierarchy
+2017-03-04 15:01:23  [ main:1252 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 15:01:21 CST 2017]; root of context hierarchy
+2017-03-04 15:01:23  [ main:1333 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 15:01:23  [ main:1338 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 15:01:23  [ main:1798 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-04 15:01:23  [ main:1823 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-04 15:04:21  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 15:04:21 CST 2017]; root of context hierarchy
+2017-03-04 15:04:21  [ main:81 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 15:04:21  [ main:746 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 15:04:22  [ main:1490 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 15:04:21 CST 2017]; root of context hierarchy
+2017-03-04 15:04:22  [ main:1561 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@9b04ac: startup date [Sat Mar 04 15:04:21 CST 2017]; root of context hierarchy
+2017-03-04 15:04:22  [ main:1656 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 15:04:22  [ main:1659 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 15:05:17  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 15:05:17 CST 2017]; root of context hierarchy
+2017-03-04 15:05:17  [ main:60 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 15:05:18  [ main:543 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 15:05:19  [ main:1181 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 15:05:17 CST 2017]; root of context hierarchy
+2017-03-04 15:05:19  [ main:1240 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1f14fd: startup date [Sat Mar 04 15:05:17 CST 2017]; root of context hierarchy
+2017-03-04 15:05:19  [ main:1320 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 15:05:19  [ main:1324 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 15:08:58  [ main:1 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 15:08:58 CST 2017]; root of context hierarchy
+2017-03-04 15:08:58  [ main:56 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 15:08:58  [ main:556 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 15:08:59  [ main:1196 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 15:08:58 CST 2017]; root of context hierarchy
+2017-03-04 15:08:59  [ main:1255 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@14fcf14: startup date [Sat Mar 04 15:08:58 CST 2017]; root of context hierarchy
+2017-03-04 15:08:59  [ main:1334 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 15:08:59  [ main:1338 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 15:16:03  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a46637: startup date [Sat Mar 04 15:16:03 CST 2017]; root of context hierarchy
+2017-03-04 15:16:03  [ main:54 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 15:16:04  [ main:638 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 15:16:05  [ main:1454 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@a46637: startup date [Sat Mar 04 15:16:03 CST 2017]; root of context hierarchy
+2017-03-04 15:16:05  [ main:1526 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@a46637: startup date [Sat Mar 04 15:16:03 CST 2017]; root of context hierarchy
+2017-03-04 15:16:05  [ main:1622 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 15:16:05  [ main:1626 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 19:16:38  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@287ca7: startup date [Sat Mar 04 19:16:38 CST 2017]; root of context hierarchy
+2017-03-04 19:16:38  [ main:166 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 19:22:32  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Sat Mar 04 19:22:32 CST 2017]; root of context hierarchy
+2017-03-04 19:22:33  [ main:212 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 19:22:35  [ main:2242 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 19:22:37  [ main:4611 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Sat Mar 04 19:22:32 CST 2017]; root of context hierarchy
+2017-03-04 19:22:37  [ main:4830 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Sat Mar 04 19:22:32 CST 2017]; root of context hierarchy
+2017-03-04 19:22:37  [ main:5039 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 19:22:37  [ main:5050 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 19:24:09  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c6fd6e: startup date [Sat Mar 04 19:24:09 CST 2017]; root of context hierarchy
+2017-03-04 19:24:09  [ main:176 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 19:24:10  [ main:1483 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 19:24:12  [ main:3300 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@c6fd6e: startup date [Sat Mar 04 19:24:09 CST 2017]; root of context hierarchy
+2017-03-04 19:24:12  [ main:3470 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@c6fd6e: startup date [Sat Mar 04 19:24:09 CST 2017]; root of context hierarchy
+2017-03-04 19:24:13  [ main:3679 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 19:24:13  [ main:3688 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-04 19:24:26  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Sat Mar 04 19:24:26 CST 2017]; root of context hierarchy
+2017-03-04 19:24:26  [ main:161 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-04 19:24:28  [ main:1438 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-04 19:24:29  [ main:3222 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Sat Mar 04 19:24:26 CST 2017]; root of context hierarchy
+2017-03-04 19:24:30  [ main:3391 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Sat Mar 04 19:24:26 CST 2017]; root of context hierarchy
+2017-03-04 19:24:30  [ main:3606 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-04 19:24:30  [ main:3616 ] - [ INFO ]  Mapped URL path [/script/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'

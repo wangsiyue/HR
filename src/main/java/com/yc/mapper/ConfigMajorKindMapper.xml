@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.mapper.ConfigMajorKindMapper">
+	<select id="findAll" resultType="ConfigMajorKind">
+		select mfk_id,major_kind_id,major_kind_name from config_major_kind
+	</select>
+	
+	<insert id="add" parameterType="ConfigMajor">
+		insert into config_major_kind(major_kind_id,major_kind_name) values(#{major_kind_id},#{major_kind_name})
+	</insert>
+	
+	<!-- 删除 -->
+	<delete id="del" parameterType="ConfigMajorKind">
+		delete from config_major_kind where mfk_id=#{mfk_id}
+	</delete>
+	
+	<select id="findMaxKindId" resultType="ConfigMajorKind">
+		select * from config_major_kind where major_kind_id in(
+		select MAX(major_kind_id) from config_major_kind)
+	</select>
+	
+	<select id="findByMfkId" resultType="ConfigMajorKind" parameterType="ConfigMajorKind">
+		select * from config_major_kind where mfk_id=#{mfk_id}
+	</select>
+</mapper>

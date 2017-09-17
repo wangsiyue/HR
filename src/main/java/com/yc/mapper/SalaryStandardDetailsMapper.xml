@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 薪酬标准单详细信息-->
+<mapper namespace="com.yc.mapper.SalaryStandardDetailsMapper">
+	<insert id="addSalaryStandardDetails" parameterType="SalaryStandardDetails">
+	 insert into salary_standard_details(standard_id,standard_name,item_id,item_name,salary)
+	  values(#{standard_id},#{standard_name},#{item_id},#{item_name},#{salary})
+	</insert>
+	
+	<select id="findSalaryStandardDetailsByStandardId" resultType="SalaryStandardDetails"  parameterType="SalaryStandardDetails">
+		select * from salary_standard_details where standard_id=#{standard_id}
+	</select>
+	
+	
+	
+
+	
+	
+	<select id="selectSalaryStandardDetails" parameterType="SalaryStandardDetails" resultType="SalaryStandardDetails">
+		select * from salary_standard_details where standard_id=#{standard_id}
+	</select>
+	<select id="findAll" resultType="SalaryStandardDetails">
+		select * from salary_standard_details 
+	</select>
+	
+	
+</mapper>

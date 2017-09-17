@@ -1,0 +1,33 @@
+2017-03-11 09:14:19  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Sat Mar 11 09:14:19 CST 2017]; root of context hierarchy
+2017-03-11 09:14:19  [ main:141 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-11 09:14:20  [ main:1408 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-11 09:14:22  [ main:2981 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-11 09:14:22  [ main:3387 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Sat Mar 11 09:14:19 CST 2017]; root of context hierarchy
+2017-03-11 09:14:22  [ main:3531 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Sat Mar 11 09:14:19 CST 2017]; root of context hierarchy
+2017-03-11 09:14:23  [ main:3728 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-11 09:14:23  [ main:3735 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-11 09:14:23  [ main:3747 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-11 09:14:23  [ main:3753 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-11 14:19:35  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c6fd6e: startup date [Sat Mar 11 14:19:35 CST 2017]; root of context hierarchy
+2017-03-11 14:19:36  [ main:258 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-11 14:19:39  [ main:3904 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-11 14:19:42  [ main:6744 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-11 14:19:43  [ main:7570 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@c6fd6e: startup date [Sat Mar 11 14:19:35 CST 2017]; root of context hierarchy
+2017-03-11 14:19:43  [ main:7855 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@c6fd6e: startup date [Sat Mar 11 14:19:35 CST 2017]; root of context hierarchy
+2017-03-11 14:19:44  [ main:8085 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-11 14:19:44  [ main:8093 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-11 14:19:44  [ main:8109 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-11 14:19:44  [ main:8117 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-11 14:20:35  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bc9f58: startup date [Sat Mar 11 14:20:35 CST 2017]; root of context hierarchy
+2017-03-11 14:20:35  [ main:154 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-11 14:20:37  [ main:1563 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-11 14:20:38  [ main:3305 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-11 14:20:39  [ main:3750 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@bc9f58: startup date [Sat Mar 11 14:20:35 CST 2017]; root of context hierarchy
+2017-03-11 14:20:39  [ main:3906 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@bc9f58: startup date [Sat Mar 11 14:20:35 CST 2017]; root of context hierarchy
+2017-03-11 14:20:39  [ main:4135 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-11 14:20:39  [ main:4148 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-11 14:20:39  [ main:4156 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-11 14:20:39  [ main:4164 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-11 14:20:40  [ main:5418 ] - [ DEBUG ]  ==>  Preparing: select ffk_id,first_kind_id,first_kind_name,first_kind_salary_id,first_kind_sale_id from config_file_first_kind 
+2017-03-11 14:20:40  [ main:5505 ] - [ DEBUG ]  ==> Parameters: 
+2017-03-11 14:20:41  [ main:5679 ] - [ DEBUG ]  <==      Total: 1

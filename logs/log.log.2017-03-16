@@ -1,0 +1,250 @@
+2017-03-16 18:38:26  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16e9494: startup date [Thu Mar 16 18:38:26 CST 2017]; root of context hierarchy
+2017-03-16 18:38:26  [ main:189 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 18:38:28  [ main:2252 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 18:38:30  [ main:4435 ] - [ INFO ]  Mapped "{[/findBy]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findBy() throws java.lang.Exception
+2017-03-16 18:38:30  [ main:4439 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 18:38:30  [ main:4440 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 18:38:30  [ main:4441 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 18:38:30  [ main:4442 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:38:30  [ main:4443 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:38:30  [ main:4443 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 18:38:30  [ main:4444 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 18:38:30  [ main:4445 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:38:30  [ main:4954 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@16e9494: startup date [Thu Mar 16 18:38:26 CST 2017]; root of context hierarchy
+2017-03-16 18:38:31  [ main:5168 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@16e9494: startup date [Thu Mar 16 18:38:26 CST 2017]; root of context hierarchy
+2017-03-16 18:38:31  [ main:5469 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 18:38:31  [ main:5479 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 18:38:31  [ main:5486 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 18:38:31  [ main:5494 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 18:38:32  [ main:6795 ] - [ DEBUG ]  ==>  Preparing: select ftk_id,first_kind_id,first_kind_name,second_kind_id,second_kind_name,third_kind_id,third_kind_name,third_kind_sale_id,third_kind_is_retail from config_file_third_kind where first_kind_id=? 
+2017-03-16 18:38:32  [ main:6865 ] - [ DEBUG ]  ==> Parameters: null
+2017-03-16 18:38:32  [ main:6901 ] - [ DEBUG ]  <==      Total: 0
+2017-03-16 18:39:55  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@15914f3: startup date [Thu Mar 16 18:39:55 CST 2017]; root of context hierarchy
+2017-03-16 18:39:55  [ main:182 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 18:39:56  [ main:1776 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 18:39:58  [ main:3746 ] - [ INFO ]  Mapped "{[/findBy]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findBy() throws java.lang.Exception
+2017-03-16 18:39:58  [ main:3748 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 18:39:58  [ main:3749 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 18:39:58  [ main:3750 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:39:58  [ main:3751 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 18:39:58  [ main:3752 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 18:39:58  [ main:3752 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:39:58  [ main:3753 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 18:39:58  [ main:3754 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:39:59  [ main:4265 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@15914f3: startup date [Thu Mar 16 18:39:55 CST 2017]; root of context hierarchy
+2017-03-16 18:39:59  [ main:4437 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@15914f3: startup date [Thu Mar 16 18:39:55 CST 2017]; root of context hierarchy
+2017-03-16 18:39:59  [ main:4775 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 18:39:59  [ main:4785 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 18:39:59  [ main:4791 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 18:39:59  [ main:4797 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 18:40:52  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@15914f3: startup date [Thu Mar 16 18:40:52 CST 2017]; root of context hierarchy
+2017-03-16 18:40:52  [ main:179 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 18:40:54  [ main:1621 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 18:40:56  [ main:3587 ] - [ INFO ]  Mapped "{[/findBy]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findBy() throws java.lang.Exception
+2017-03-16 18:40:56  [ main:3591 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 18:40:56  [ main:3591 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 18:40:56  [ main:3592 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:40:56  [ main:3593 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 18:40:56  [ main:3594 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 18:40:56  [ main:3595 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 18:40:56  [ main:3595 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:40:56  [ main:3600 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:40:56  [ main:4107 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@15914f3: startup date [Thu Mar 16 18:40:52 CST 2017]; root of context hierarchy
+2017-03-16 18:40:57  [ main:4279 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@15914f3: startup date [Thu Mar 16 18:40:52 CST 2017]; root of context hierarchy
+2017-03-16 18:40:57  [ main:4615 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 18:40:57  [ main:4625 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 18:40:57  [ main:4635 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 18:40:57  [ main:4641 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 18:42:59  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@15914f3: startup date [Thu Mar 16 18:42:59 CST 2017]; root of context hierarchy
+2017-03-16 18:42:59  [ main:179 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 18:43:01  [ main:2090 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 18:43:03  [ main:4179 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 18:43:03  [ main:4182 ] - [ INFO ]  Mapped "{[/findBy]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findBy() throws java.lang.Exception
+2017-03-16 18:43:03  [ main:4182 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 18:43:03  [ main:4183 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:43:03  [ main:4184 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 18:43:03  [ main:4185 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 18:43:03  [ main:4186 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:43:03  [ main:4187 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:43:03  [ main:4189 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 18:43:04  [ main:4711 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@15914f3: startup date [Thu Mar 16 18:42:59 CST 2017]; root of context hierarchy
+2017-03-16 18:43:04  [ main:4902 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@15914f3: startup date [Thu Mar 16 18:42:59 CST 2017]; root of context hierarchy
+2017-03-16 18:43:05  [ main:5292 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 18:43:05  [ main:5302 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 18:43:05  [ main:5308 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 18:43:05  [ main:5314 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 18:43:06  [ main:6364 ] - [ DEBUG ]  ==>  Preparing: select ftk_id,first_kind_id,first_kind_name,second_kind_id,second_kind_name,third_kind_id,third_kind_name,third_kind_sale_id,third_kind_is_retail from config_file_third_kind where first_kind_id=? 
+2017-03-16 18:43:06  [ main:6435 ] - [ DEBUG ]  ==> Parameters: 01(String)
+2017-03-16 18:43:06  [ main:6513 ] - [ DEBUG ]  <==      Total: 2
+2017-03-16 18:53:57  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@944d4a: startup date [Thu Mar 16 18:53:57 CST 2017]; root of context hierarchy
+2017-03-16 18:53:57  [ main:157 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 18:53:58  [ main:1598 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 18:54:00  [ main:3379 ] - [ INFO ]  Mapped "{[/findBy]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findBy() throws java.lang.Exception
+2017-03-16 18:54:00  [ main:3382 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 18:54:00  [ main:3383 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:54:00  [ main:3383 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 18:54:00  [ main:3384 ] - [ INFO ]  Mapped "{[/findThirdKindBySecondKindId]}" onto public void com.yc.web.controller.HumanFileController.findThirdKindBySecondKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 18:54:00  [ main:3385 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 18:54:00  [ main:3385 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 18:54:00  [ main:3386 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:54:00  [ main:3387 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 18:54:00  [ main:3387 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 18:54:01  [ main:3843 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@944d4a: startup date [Thu Mar 16 18:53:57 CST 2017]; root of context hierarchy
+2017-03-16 18:54:01  [ main:3989 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@944d4a: startup date [Thu Mar 16 18:53:57 CST 2017]; root of context hierarchy
+2017-03-16 18:54:01  [ main:4327 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 18:54:01  [ main:4340 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 18:54:01  [ main:4347 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 18:54:01  [ main:4356 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 18:54:02  [ main:5388 ] - [ DEBUG ]  ==>  Preparing: select ftk_id,first_kind_id,first_kind_name,second_kind_id,second_kind_name,third_kind_id,third_kind_name,third_kind_sale_id,third_kind_is_retail from config_file_third_kind where second_kind_id=? 
+2017-03-16 18:54:02  [ main:5457 ] - [ DEBUG ]  ==> Parameters: 01(String)
+2017-03-16 18:54:02  [ main:5511 ] - [ DEBUG ]  <==      Total: 1
+2017-03-16 19:10:22  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f30862: startup date [Thu Mar 16 19:10:22 CST 2017]; root of context hierarchy
+2017-03-16 19:10:22  [ main:157 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 19:10:24  [ main:1687 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 19:10:25  [ main:3412 ] - [ INFO ]  Mapped "{[/findBy]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findBy() throws java.lang.Exception
+2017-03-16 19:10:25  [ main:3414 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:10:25  [ main:3415 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 19:10:25  [ main:3419 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:10:25  [ main:3420 ] - [ INFO ]  Mapped "{[/findMajorByMajorKindId]}" onto public void com.yc.web.controller.HumanFileController.findMajorByMajorKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:10:25  [ main:3421 ] - [ INFO ]  Mapped "{[/findThirdKindBySecondKindId]}" onto public void com.yc.web.controller.HumanFileController.findThirdKindBySecondKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:10:25  [ main:3422 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:10:25  [ main:3422 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 19:10:25  [ main:3423 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:10:25  [ main:3423 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:10:25  [ main:3424 ] - [ INFO ]  Mapped "{[/findMajorKind]}" onto public void com.yc.web.controller.HumanFileController.findMajorKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:10:25  [ main:3424 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:10:26  [ main:3881 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@f30862: startup date [Thu Mar 16 19:10:22 CST 2017]; root of context hierarchy
+2017-03-16 19:10:26  [ main:4033 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@f30862: startup date [Thu Mar 16 19:10:22 CST 2017]; root of context hierarchy
+2017-03-16 19:10:26  [ main:4337 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 19:10:26  [ main:4346 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 19:10:26  [ main:4352 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 19:10:26  [ main:4360 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 19:10:28  [ main:5536 ] - [ DEBUG ]  ==>  Preparing: select mak_id,major_kind_id,major_kind_name,major_id,major_name,test_amount where major_kind_id=? 
+2017-03-16 19:10:28  [ main:5607 ] - [ DEBUG ]  ==> Parameters: 01(String)
+2017-03-16 19:10:28  [ main:5690 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-16 19:10:28  [ main:5750 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-16 19:15:33  [ main:1 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f30862: startup date [Thu Mar 16 19:15:33 CST 2017]; root of context hierarchy
+2017-03-16 19:15:33  [ main:161 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 19:15:34  [ main:1457 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 19:15:36  [ main:3159 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3161 ] - [ INFO ]  Mapped "{[/findBy]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findBy() throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3162 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3163 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3163 ] - [ INFO ]  Mapped "{[/findThirdKindBySecondKindId]}" onto public void com.yc.web.controller.HumanFileController.findThirdKindBySecondKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3164 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3164 ] - [ INFO ]  Mapped "{[/findMajorByMajorKindId]}" onto public void com.yc.web.controller.HumanFileController.findMajorByMajorKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3165 ] - [ INFO ]  Mapped "{[/findMajorKind]}" onto public void com.yc.web.controller.HumanFileController.findMajorKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3167 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3168 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 19:15:36  [ main:3169 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3170 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:15:36  [ main:3614 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@f30862: startup date [Thu Mar 16 19:15:33 CST 2017]; root of context hierarchy
+2017-03-16 19:15:37  [ main:3766 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@f30862: startup date [Thu Mar 16 19:15:33 CST 2017]; root of context hierarchy
+2017-03-16 19:15:37  [ main:4064 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 19:15:37  [ main:4071 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 19:15:37  [ main:4078 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 19:15:37  [ main:4084 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 19:15:38  [ main:5053 ] - [ DEBUG ]  ==>  Preparing: select mak_id,major_kind_id,major_kind_name,major_id,major_name,test_amount where major_kind_id=? 
+2017-03-16 19:15:38  [ main:5128 ] - [ DEBUG ]  ==> Parameters: 01(String)
+2017-03-16 19:15:38  [ main:5187 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-16 19:15:38  [ main:5244 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-16 19:18:44  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1ab5e85: startup date [Thu Mar 16 19:18:44 CST 2017]; root of context hierarchy
+2017-03-16 19:18:44  [ main:157 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 19:18:46  [ main:1589 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 19:18:47  [ main:3475 ] - [ INFO ]  Mapped "{[/findBy]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findBy() throws java.lang.Exception
+2017-03-16 19:18:47  [ main:3477 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:18:47  [ main:3478 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 19:18:47  [ main:3479 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:18:47  [ main:3480 ] - [ INFO ]  Mapped "{[/findThirdKindBySecondKindId]}" onto public void com.yc.web.controller.HumanFileController.findThirdKindBySecondKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:18:47  [ main:3481 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:18:47  [ main:3483 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:18:47  [ main:3484 ] - [ INFO ]  Mapped "{[/findMajorKind]}" onto public void com.yc.web.controller.HumanFileController.findMajorKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:18:48  [ main:3485 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:18:48  [ main:3486 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 19:18:48  [ main:3487 ] - [ INFO ]  Mapped "{[/findMajorByKindId]}" onto public void com.yc.web.controller.HumanFileController.findMajorByKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:18:48  [ main:3488 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:18:48  [ main:3969 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1ab5e85: startup date [Thu Mar 16 19:18:44 CST 2017]; root of context hierarchy
+2017-03-16 19:18:48  [ main:4125 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1ab5e85: startup date [Thu Mar 16 19:18:44 CST 2017]; root of context hierarchy
+2017-03-16 19:18:48  [ main:4436 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 19:18:48  [ main:4447 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 19:18:48  [ main:4455 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 19:18:48  [ main:4461 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 19:18:49  [ main:5436 ] - [ DEBUG ]  ==>  Preparing: select mak_id,major_kind_id,major_kind_name,major_id,major_name,test_amount where major_kind_id=? 
+2017-03-16 19:18:50  [ main:5509 ] - [ DEBUG ]  ==> Parameters: 01(String)
+2017-03-16 19:18:50  [ main:5569 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-16 19:18:50  [ main:5628 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-16 19:32:15  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f30862: startup date [Thu Mar 16 19:32:15 CST 2017]; root of context hierarchy
+2017-03-16 19:32:15  [ main:193 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 19:32:16  [ main:1740 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 19:32:18  [ main:3688 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:32:18  [ main:3690 ] - [ INFO ]  Mapped "{[/findBy]}" onto public java.lang.String com.yc.web.controller.HumanFileController.findBy() throws java.lang.Exception
+2017-03-16 19:32:18  [ main:3691 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 19:32:18  [ main:3692 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 19:32:18  [ main:3692 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:32:18  [ main:3693 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:32:18  [ main:3693 ] - [ INFO ]  Mapped "{[/findMajorByKindId]}" onto public void com.yc.web.controller.HumanFileController.findMajorByKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:32:18  [ main:3694 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:32:18  [ main:3695 ] - [ INFO ]  Mapped "{[/findMajorKind]}" onto public void com.yc.web.controller.HumanFileController.findMajorKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 19:32:18  [ main:3697 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 19:32:18  [ main:3699 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:32:18  [ main:3700 ] - [ INFO ]  Mapped "{[/findThirdKindBySecondKindId]}" onto public void com.yc.web.controller.HumanFileController.findThirdKindBySecondKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 19:32:19  [ main:4194 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@f30862: startup date [Thu Mar 16 19:32:15 CST 2017]; root of context hierarchy
+2017-03-16 19:32:19  [ main:4397 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@f30862: startup date [Thu Mar 16 19:32:15 CST 2017]; root of context hierarchy
+2017-03-16 19:32:19  [ main:4760 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 19:32:19  [ main:4772 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 19:32:19  [ main:4783 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 19:32:19  [ main:4793 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 19:32:21  [ main:5970 ] - [ DEBUG ]  ==>  Preparing: select mak_id,major_kind_id,major_kind_name,major_id,major_name,test_amount where major_kind_id=? 
+2017-03-16 19:32:21  [ main:6047 ] - [ DEBUG ]  ==> Parameters: 01(String)
+2017-03-16 19:32:21  [ main:6117 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-03-16 19:32:21  [ main:6191 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-03-16 20:37:57  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1eee615: startup date [Thu Mar 16 20:37:57 CST 2017]; root of context hierarchy
+2017-03-16 20:37:58  [ main:169 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 20:37:59  [ main:1666 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 20:38:01  [ main:3478 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3482 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3483 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3483 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3484 ] - [ INFO ]  Mapped "{[/findMajorKind]}" onto public void com.yc.web.controller.HumanFileController.findMajorKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3484 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3485 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 20:38:01  [ main:3485 ] - [ INFO ]  Mapped "{[/findMajorByKindId]}" onto public void com.yc.web.controller.HumanFileController.findMajorByKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3486 ] - [ INFO ]  Mapped "{[/findHumanFileBy]}" onto public void com.yc.web.controller.HumanFileController.findHumanFileBy(com.yc.bean.HumanFile,int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3487 ] - [ INFO ]  Mapped "{[/findThirdKindBySecondKindId]}" onto public void com.yc.web.controller.HumanFileController.findThirdKindBySecondKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3487 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3488 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 20:38:01  [ main:3959 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1eee615: startup date [Thu Mar 16 20:37:57 CST 2017]; root of context hierarchy
+2017-03-16 20:38:02  [ main:4120 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1eee615: startup date [Thu Mar 16 20:37:57 CST 2017]; root of context hierarchy
+2017-03-16 20:38:02  [ main:4413 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 20:38:02  [ main:4422 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 20:38:02  [ main:4428 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 20:38:02  [ main:4436 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 20:38:03  [ main:5408 ] - [ DEBUG ]  ==>  Preparing: select human_id,human_name,human_sex,first_kind_name,second_kind_name,third_kind_name,human_pro_designation from human_file where human_file_status=0 order by human_id limit ?,? 
+2017-03-16 20:38:03  [ main:5480 ] - [ DEBUG ]  ==> Parameters: 0(Integer), 4(Integer)
+2017-03-16 20:38:03  [ main:5602 ] - [ DEBUG ]  <==      Total: 4
+2017-03-16 21:31:48  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a8c064: startup date [Thu Mar 16 21:31:48 CST 2017]; root of context hierarchy
+2017-03-16 21:31:48  [ main:161 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-16 21:31:50  [ main:1577 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-16 21:31:52  [ main:3528 ] - [ INFO ]  Mapped "{[/findByPage]}" onto public void com.yc.web.controller.HumanFileController.findByPage(int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3530 ] - [ INFO ]  Mapped "{[/findByConditionAndPage]}" onto public void com.yc.web.controller.HumanFileController.findByConditionAndPage(com.yc.bean.HumanFile,int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3531 ] - [ INFO ]  Mapped "{[/addHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.addHumanFile(com.yc.bean.HumanFile,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3532 ] - [ INFO ]  Mapped "{[/findHumanFileBy]}" onto public void com.yc.web.controller.HumanFileController.findHumanFileBy(com.yc.bean.HumanFile,int,int,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3532 ] - [ INFO ]  Mapped "{[/findMajorByKindId]}" onto public void com.yc.web.controller.HumanFileController.findMajorByKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3536 ] - [ INFO ]  Mapped "{[/toAddHumanFileForm]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toAddHumanFileForm(org.springframework.ui.Model)
+2017-03-16 21:31:52  [ main:3537 ] - [ INFO ]  Mapped "{[/findMajorKind]}" onto public void com.yc.web.controller.HumanFileController.findMajorKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3538 ] - [ INFO ]  Mapped "{[/toHumanFileQueryList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.toHumanFileQueryList(com.yc.bean.HumanFile,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3538 ] - [ INFO ]  Mapped "{[/checkFileDetail]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkFileDetail(java.lang.String,org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3539 ] - [ INFO ]  Mapped "{[/findFirstKind]}" onto public void com.yc.web.controller.HumanFileController.findFirstKind(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3539 ] - [ INFO ]  Mapped "{[/checkHumanFile]}" onto public java.lang.String com.yc.web.controller.HumanFileController.checkHumanFile(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3540 ] - [ INFO ]  Mapped "{[/findThirdKindBySecondKindId]}" onto public void com.yc.web.controller.HumanFileController.findThirdKindBySecondKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3540 ] - [ INFO ]  Mapped "{[/findSecondKindByFirstKindId]}" onto public void com.yc.web.controller.HumanFileController.findSecondKindByFirstKindId(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:3540 ] - [ INFO ]  Mapped "{[/showHumanFileCheckList]}" onto public java.lang.String com.yc.web.controller.HumanFileController.showHumanFileCheckList(org.springframework.ui.Model) throws java.lang.Exception
+2017-03-16 21:31:52  [ main:4021 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a8c064: startup date [Thu Mar 16 21:31:48 CST 2017]; root of context hierarchy
+2017-03-16 21:31:52  [ main:4243 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a8c064: startup date [Thu Mar 16 21:31:48 CST 2017]; root of context hierarchy
+2017-03-16 21:31:53  [ main:4543 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-16 21:31:53  [ main:4552 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-16 21:31:53  [ main:4558 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-16 21:31:53  [ main:4564 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-16 21:31:54  [ main:5746 ] - [ DEBUG ]  ==>  Preparing: select human_id,human_name,human_sex,first_kind_name,second_kind_name,third_kind_name,human_major_kind_name,hunma_major_name from human_file order by human_id limit ?,? 
+2017-03-16 21:31:54  [ main:5831 ] - [ DEBUG ]  ==> Parameters: 0(Integer), 4(Integer)
+2017-03-16 21:31:54  [ main:5881 ] - [ DEBUG ]  <==      Total: 4

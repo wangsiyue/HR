@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 薪酬发放   -->
+<mapper namespace="com.yc.mapper.SalaryGrantMapper">
+	<insert id="addSalaryGrant" parameterType="SalaryGrant">
+		insert into salary_grant
+		(salary_grant_id,salary_standard_id,first_kind_id,first_kind_name,second_kind_id,second_kind_name,
+		third_kind_id,third_kind_name,human_amount,salary_standard_sum,salary_paid_sum,register,regist_time,checker,check_time,check_status) 
+		values(#{salary_grant_id},#{salary_standard_id},#{first_kind_id},#{first_kind_name},#{second_kind_id},
+		#{second_kind_name},null,null,#{human_amount},#{salary_standard_sum},#{salary_paid_sum},#{register},
+		#{regist_time},null,null,0)
+	</insert>
+	
+	<select id="findMaxSGID" resultType="SalaryGrant">
+		select * from salary_grant where salary_grant_id in(
+			select max(salary_grant_id) from salary_grant
+		)
+	</select>
+	
+	<!-- 分页显示所有需要复核的薪酬发放单 -->
+	<select id="findByPage" resultType="SalaryGrantDetails" parameterType="SalaryGrant">
+		select sgd.*,sg.* from 
+		salary_grant_details sgd inner join salary_grant sg on sgd.salary_grant_id=sg.salary_grant_id 
+		and sg.check_status=0 order by sg.salary_grant_id limit #{page},#{rows}
+	</select>
+	
+	<!-- 查看所有需要复核的薪酬发放单 -->
+	<select id="findCheckSalaryGrant" resultType="SalaryGrantDetails">
+		select sgd.*,sg.* from 
+		salary_grant_details sgd inner join salary_grant sg on sgd.salary_grant_id=sg.salary_grant_id 
+		and sg.check_status=0
+	</select>
+	
+	<!-- 复核checker : 复核人                                                                           */
+/* 	check_time : 复核时间                                                                       */
+/* 	check_status : 复核状态    -->
+	<update id="checkSalaryGrant" parameterType="SalaryGrant">
+		update salary_grant set check_status=#{check_status},salary_paid_sum=#{salary_paid_sum},
+		checker=#{checker},check_time=#{check_time}
+		where salary_grant_id=#{salary_grant_id}
+	</update>
+	
+	<!-- 按条件查询  模糊查询 -->
+	<select id="findBy" parameterType="SalaryGrant" resultType="SalaryGrant">
+		select * from salary_grant where 1=1 
+		<if test="salary_grant_id != null">
+			and salary_grant_id like #{salary_grant_id}
+		</if>
+		<if test="key != null">
+			and salary_standard_id like #{key} or first_kind_name like #{key}
+			 or second_kind_name like #{key} or register like #{key} or checker like #{key}
+		</if>
+		<if test="minTime!=null and maxTime!=null">
+			and regist_time  &gt;  #{ minTime} and regist_time &lt; #{ maxTime}
+		</if>
+	</select>
+	
+	<select id="findSalaryGrantByConditionAndPage" parameterType="SalaryGrant" resultType="SalaryGrant">
+		select * from salary_grant where 1=1 
+		<if test="salary_grant_id != null">
+			and salary_grant_id like #{salary_grant_id}
+		</if>
+		<if test="key != null">
+			and salary_standard_id like #{key} or first_kind_name like #{key}
+			 or second_kind_name like #{key} or register like #{key} or checker like #{key}
+		</if>
+		<if test="minTime!=null and maxTime!=null">
+			and regist_time  &gt;  #{ minTime} and regist_time &lt; #{ maxTime}
+		</if>
+		order by sgr_id limit #{page},#{rows}
+	</select>
+	
+	
+</mapper>

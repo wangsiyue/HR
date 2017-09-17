@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.mapper.EngageInterviewMapper">
+	<insert id="addInterview" parameterType="EngageInterview">
+		insert into
+		engage_interview(human_name,interview_amount,human_major_kind_id,human_major_kind_name,
+		human_major_id,human_major_name,image_degree ,native_language_degree,
+		foreign_language_degree,response_speed_degree,EQ_degree,IQ_degree,
+		multi_quality_degree,register,checker,registe_time,check_time,resume_id,
+		result,interview_comment,check_comment,interview_status,check_status)
+		values(#{human_name},#{interview_amount},#{human_major_kind_id},#{human_major_kind_name},
+		#{human_major_id},#{human_major_name} ,#{image_degree} ,#{native_language_degree},
+		#{foreign_language_degree},#{response_speed_degree},#{EQ_degree},#{IQ_degree},
+		#{multi_quality_degree},#{register},null,#{registe_time},null,#{resume_id},
+		null,null,null,0,0)
+	</insert>
+	
+	<!--再次面试时执行更改操作 -->
+	<update id="updateInterview"  parameterType="EngageInterview">
+		update engage_interview set 
+		human_name=#{human_name},interview_amount=#{interview_amount},
+		human_major_kind_id=#{human_major_kind_id},human_major_kind_name=#{human_major_kind_name},
+		human_major_id=#{human_major_id},human_major_name=#{human_major_name} ,
+		image_degree=#{image_degree} ,native_language_degree=#{native_language_degree},
+		foreign_language_degree=#{foreign_language_degree},
+		response_speed_degree=#{response_speed_degree},EQ_degree=#{EQ_degree},IQ_degree=#{IQ_degree},
+		multi_quality_degree=#{multi_quality_degree},register=#{register},
+		registe_time=#{registe_time},resume_id=#{resume_id} 
+		where ein_id=#{ein_id}
+	</update>
+
+	<select id="findInterview" resultType="EngageInterview" parameterType="EngageInterview">
+		select * from engage_interview where 1=1 
+		<if test="check_status!=null">
+			and check_status=#{check_status} 
+		</if>
+		<if test="ein_id!=null">
+			and ein_id=#{ein_id}
+		</if>
+		<if test="resume_id!=null">
+			and resume_id=#{resume_id}
+		</if>
+	</select>
+	
+	<select id="findResumeExit" resultType="EngageInterview" parameterType="EngageInterview">
+		select * from engage_interview where resume_id=#{resume_id}
+	</select>
+	
+	<!-- 筛选checkInterview面试 -->
+	<update id="checkInterview" parameterType="EngageInterview">
+		update engage_interview set checker=#{checker},check_time=#{check_time}
+		,check_comment=#{check_comment},result=#{result},check_status=#{check_status} 
+		<if test="interview_amount!=''">
+			,interview_amount=#{interview_amount}
+		</if>
+		where ein_id=#{ein_id}
+	</update>
+
+	<delete id="deleteInterview"  parameterType="EngageInterview">
+		delete from engage_interview where ein_id=#{ein_id}
+	</delete>
+</mapper>

@@ -1,0 +1,33 @@
+2017-03-10 21:46:12  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Fri Mar 10 21:46:12 CST 2017]; root of context hierarchy
+2017-03-10 21:46:12  [ main:226 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-10 21:46:14  [ main:2241 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-10 21:46:16  [ main:4134 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Fri Mar 10 21:46:12 CST 2017]; root of context hierarchy
+2017-03-10 21:46:16  [ main:4328 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@1a072a6: startup date [Fri Mar 10 21:46:12 CST 2017]; root of context hierarchy
+2017-03-10 21:46:16  [ main:4597 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-10 21:46:16  [ main:4610 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-10 21:46:16  [ main:4620 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-10 21:46:16  [ main:4627 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-10 21:47:26  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@287ca7: startup date [Fri Mar 10 21:47:26 CST 2017]; root of context hierarchy
+2017-03-10 21:47:26  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@287ca7: startup date [Fri Mar 10 21:47:26 CST 2017]; root of context hierarchy
+2017-03-10 21:47:26  [ main:268 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-10 21:47:26  [ main:319 ] - [ INFO ]  Loading XML bean definitions from class path resource [Bean.xml]
+2017-03-10 21:47:28  [ main:2278 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-10 21:47:28  [ main:2314 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-03-10 21:47:31  [ main:4693 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@287ca7: startup date [Fri Mar 10 21:47:26 CST 2017]; root of context hierarchy
+2017-03-10 21:47:31  [ main:4704 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@287ca7: startup date [Fri Mar 10 21:47:26 CST 2017]; root of context hierarchy
+2017-03-10 21:47:31  [ main:4912 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@287ca7: startup date [Fri Mar 10 21:47:26 CST 2017]; root of context hierarchy
+2017-03-10 21:47:31  [ main:4923 ] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.context.support.ClassPathXmlApplicationContext@287ca7: startup date [Fri Mar 10 21:47:26 CST 2017]; root of context hierarchy
+2017-03-10 21:47:31  [ main:5198 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-10 21:47:31  [ main:5212 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-10 21:47:31  [ main:5224 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-10 21:47:31  [ main:5233 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-10 21:47:31  [ main:5220 ] - [ INFO ]  Mapped URL path [/css/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-03-10 21:47:31  [ main:5249 ] - [ INFO ]  Mapped URL path [/js/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-03-10 21:47:31  [ main:5261 ] - [ INFO ]  Mapped URL path [/image/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-03-10 21:47:31  [ main:5271 ] - [ INFO ]  Mapped URL path [/files/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-03-10 21:47:33  [ main:6650 ] - [ DEBUG ]  ==>  Preparing: select u_id,u_name,u_true_name,u_password from users where 1=1 
+2017-03-10 21:47:33  [ main:6648 ] - [ DEBUG ]  ==>  Preparing: select u_id,u_name,u_true_name,u_password from users where 1=1 
+2017-03-10 21:47:33  [ main:6756 ] - [ DEBUG ]  ==> Parameters: 
+2017-03-10 21:47:33  [ main:6765 ] - [ DEBUG ]  ==> Parameters: 
+2017-03-10 21:47:33  [ main:6817 ] - [ DEBUG ]  <==      Total: 3
+2017-03-10 21:47:33  [ main:6826 ] - [ DEBUG ]  <==      Total: 3

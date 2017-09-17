@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.mapper.EngageAnswerMapper">
+	<insert id="addEngageAnswer" parameterType="EngageAnswer">
+	insert into engage_answer( answer_number, exam_number, resume_id, 
+	interview_id, human_name, human_idcard, major_kind_id, major_kind_name, 
+	major_id, major_name, test_time, use_time, total_point )
+	 values(#{answer_number},#{exam_number},#{resume_id},#{
+	interview_id },#{human_name},#{human_idcard},#{major_kind_id},#{major_kind_name},#{
+	major_id},#{major_name},#{test_time},#{use_time},#{total_point})
+	</insert>
+	<update id="updateEngageAnswer" parameterType="EngageAnswer">
+	update engage_answer set
+	answer_number=#{answer_number},exam_number=#{exam_number},resume_id=#{resume_id},
+	interview_id=#{interview_id },human_name=#{human_name},human_idcard=#{human_idcard},major_kind_id=#{major_kind_id},
+	#{major_kind_name},major_id=#{major_id},major_name=#{major_name},test_time=#{test_time},use_time=#{use_time},
+	total_point=#{total_point}
+	</update>
+	<select id="findEngageAnswer" resultType="EngageAnswer">
+		select ans_id,answer_number,exam_number,resume_id,
+	interview_id ,human_name,human_idcard,major_kind_id,major_kind_name,
+	major_id,major_name,test_time,use_time,total_point from engage_answer where 1=1
+	<if test="ans_id!=null">
+		and ans_id=#{ans_id}
+	</if>
+	</select>
+	
+	<!-- 考试成绩查询筛选 -->
+	<!-- 按条件查询  模糊查询-->
+	<select id="findBy" parameterType="EngageAnswer" resultType="EngageAnswer">
+		select * from engage_answer where 1=1 
+		<if test="human_idcard != ''">
+			and human_idcard=#{human_idcard} 
+		</if>
+		<!--  <if test="key != null">
+			and human_name like #{key} 
+		</if> -->
+	</select>
+	
+	<select id="findEngageExamGradeByConditionAndPage" parameterType="EngageAnswer" resultType="EngageAnswer">
+		select * from engage_answer where 1=1 
+		<if test="human_idcard != ''">
+			and human_idcard=#{human_idcard} 
+		</if>
+		<!--  <if test="key != null">
+			and human_name like #{key} 
+		</if> -->
+		order by ans_id limit #{page},#{rows}
+	</select>
+</mapper>

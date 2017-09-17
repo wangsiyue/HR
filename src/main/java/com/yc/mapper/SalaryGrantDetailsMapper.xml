@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 薪酬发放   -->
+<mapper namespace="com.yc.mapper.SalaryGrantDetailsMapper">
+<!-- /* salary_grant_details : 薪酬发放详细信息                                                          */
+/* 	grd_id : 主键，自动增长列                                                                       */
+/* 	salary_grant_id : 薪酬发放编号                                                                */
+/* 	human_id : 档案编号                                                                         */
+/* 	human_name : 姓名                                                                         */
+/* 	bouns_sum : 奖励金额                                                                        */
+/* 	sale_sum : 销售绩效金额                                                                       */
+/* 	deduct_sum : 应扣金额                                                                       */
+/* 	salary_standard_sum : 标准薪酬总额                                                            */
+/* 	salary_paid_sum : 实发薪酬总额                                                                */   -->
+	<insert id="addSalaryGrantDetails" parameterType="SalaryGrantDetails">
+		insert into salary_grant_details
+		(salary_grant_id,human_id,human_name,bouns_sum,sale_sum,deduct_sum,salary_standard_sum,salary_paid_sum) 
+		values(#{salary_grant_id},#{human_id},#{human_name},#{bouns_sum},#{sale_sum},#{deduct_sum},
+		#{salary_standard_sum},#{salary_paid_sum})
+	</insert>
+	
+	<select id="findBysgId" parameterType="SalaryGrantDetails" resultType="SalaryGrantDetails">
+		select * from salary_grant_details where salary_grant_id=#{salary_grant_id}
+	</select>
+	
+	<update id="changeSalaryGrantDetails" parameterType="SalaryGrantDetails">
+		update salary_grant_details set bouns_sum=#{bouns_sum},sale_sum=#{sale_sum},
+		deduct_sum=#{deduct_sum},salary_paid_sum=#{salary_paid_sum}
+		where human_id=#{human_id}
+	</update>
+	
+	<select id="findByHumanId" parameterType="SalaryGrantDetails" resultType="SalaryGrantDetails">
+		select * from salary_grant_details where human_id=#{human_id}
+	</select>
+	
+	
+	
+	<select id="findBySalaryGrantId" parameterType="SalaryGrantDetails" resultType="SalaryGrantDetails">
+		select * from salary_grant_details where salary_grant_id=#{salary_grant_id}
+	</select>
+	
+	<select id="findSalaryGrantDeatilsBySalaryGrantIdAndPage" parameterType="SalaryGrantDetails" resultType="SalaryGrantDetails">
+		select * from salary_grant_details where salary_grant_id=#{salary_grant_id}
+		order by grd_id limit #{page},#{rows}
+	</select>
+	
+	
+	
+</mapper>

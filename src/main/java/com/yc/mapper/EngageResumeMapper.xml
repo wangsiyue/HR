@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.mapper.EngageResumeMapper">
+	<insert id="addEngageResume" parameterType="EngageResume">
+		insert into engage_resume (
+		human_name,engage_type,human_address,human_postcode,human_major_kind_id,human_major_kind_name,
+		human_major_id,human_major_name,human_telephone,human_homephone,human_mobilephone,human_email,
+		human_hobby,human_specility,human_sex,human_religion,human_party,human_nationality,human_race,
+		human_birthday,human_age,human_educated_degree,human_educated_years,human_educated_major,
+		human_college,human_idcard,human_birthplace,demand_salary_standard,human_history_records,
+		remark,recomandation,human_picture,attachment_name,check_status,register,regist_time,checker,
+		check_time,interview_status,total_points,test_amount,test_checker,test_check_time,pass_register,
+		pass_regist_time,pass_checker,pass_check_time,pass_check_status,pass_checkComment,pass_passComment)
+		values(
+		#{human_name},#{engage_type},#{human_address},#{human_postcode},#{human_major_kind_id},
+		#{human_major_kind_name},#{human_major_id},#{human_major_name},#{human_telephone},#{human_homephone},
+		#{human_mobilephone},#{human_email},#{human_hobby},#{human_specility},
+		#{human_sex},#{human_religion},#{human_party},#{human_nationality},#{human_race},
+		#{human_birthday},#{human_age},#{human_educated_degree},#{human_educated_years},
+		#{human_educated_major},#{human_college},#{human_idcard},#{human_birthplace},
+		#{demand_salary_standard},#{human_history_records},#{remark},null,
+		#{human_picture},null,0,#{register},#{regist_time},null,null,0,
+		0,0,null,null,#{pass_register},null,null,null,0,null,null)
+	</insert>
+	
+	<select id="findEngageResume" resultType="EngageResume" parameterType="EngageResume">
+		select * from engage_resume where 1=1 
+		<if test="res_id != null">
+			and res_id like #{res_id}
+		</if>
+		<if test="human_idcard != null">
+			and human_idcard like #{human_idcard}
+		</if>
+		<if test="human_name != null">
+			and human_name like #{human_name}
+		</if>
+	</select>
+	
+	<!-- 按条件查询  模糊查询  面试状态为1且符合状态为0-->
+	<select id="findBy" parameterType="EngageResume" resultType="EngageResume">
+		select * from engage_resume where check_status=0 and interview_status=0 
+		<if test="human_major_kind_id != ''">
+			and human_major_kind_id like #{human_major_kind_id}
+		</if>
+		<if test="human_major_id != ''">
+			and human_major_id like #{human_major_id}
+		</if>
+		 <!-- <if test="key != ''">
+			and human_name like #{key} or human_telephone like #{key} or human_idcard like #{key} or human_history_records like #{key}
+		</if> -->
+		<if test="minTime!='' and maxTime!=''">
+			and regist_time  &gt;  #{ minTime} and regist_time &lt; #{ maxTime}
+		</if>
+	</select>
+	
+	<select id="findResumeByConditionAndPage" parameterType="EngageResume" resultType="EngageResume">
+		select * from engage_resume where check_status=0 and interview_status=0 
+		<if test="human_major_kind_id != ''">
+			and human_major_kind_id like #{human_major_kind_id}
+		</if>
+		<if test="human_major_id != ''">
+			and human_major_id like #{human_major_id}
+		</if>
+		 <!-- <if test="key != ''">
+			and human_name like #{key} or human_telephone like #{key} or human_idcard like #{key} or human_history_records like #{key}
+		</if> -->
+		<if test="minTime!='' and maxTime!=''">
+			and regist_time  &gt;  #{ minTime} and regist_time &lt; #{ maxTime}
+		</if>
+		order by res_id limit #{page},#{rows}
+	</select>
+	
+	<!-- 筛选简历   对简历进行修改。填写筛选推荐意见，并决定是否推荐面试 -->
+	<update id="chooseResume" parameterType="EngageResume">
+		update engage_resume set 
+		human_name=#{human_name},engage_type=#{engage_type},human_address=#{human_address},human_postcode=#{human_postcode},
+		human_major_kind_id=#{human_major_kind_id},
+		human_major_kind_name=#{human_major_kind_name},human_major_id=#{human_major_id},human_major_name=#{human_major_name},
+		human_telephone=#{human_telephone},human_homephone=#{human_homephone},
+		human_mobilephone=#{human_mobilephone},human_email=#{human_email},human_hobby=#{human_hobby},
+		human_specility=#{human_specility},
+		human_sex=#{human_sex},human_religion=#{human_religion},human_party=#{human_party},
+		human_nationality=#{human_nationality},human_race=#{human_race},
+		human_birthday=#{human_birthday},human_age=#{human_age},human_educated_degree=#{human_educated_degree},
+		human_educated_years=#{human_educated_years},
+		human_educated_major=#{human_educated_major},human_college=#{human_college},human_idcard=#{human_idcard},
+		human_birthplace=#{human_birthplace},
+		demand_salary_standard=#{demand_salary_standard},human_history_records=#{human_history_records},
+		remark=#{remark},recomandation=#{recomandation},
+		human_picture=#{human_picture},check_status=1,
+		checker=#{checker},check_time=#{check_time} where res_id=#{res_id}
+	</update>
+	
+	<!-- 查询出可以面试的简历 即复核状态为1的所有简历 -->
+	<select id="findInterview" resultType="EngageResume">
+		select * from engage_resume where check_status=1 and interview_status=0
+	</select>
+	
+	<!-- 添加面试时修改简历表中的面试状态 -->
+	<update id="updInterview"  parameterType="EngageResume">
+		update engage_resume  set 
+		<if test="interview_status!=null ">
+			interview_status=#{interview_status} 
+		</if>
+		<if test="pass_register!=null ">
+			pass_register=#{pass_register}, 
+		</if>
+		<if test="pass_regist_time!=null ">
+			pass_regist_time=#{pass_regist_time}
+		</if>
+		where res_id=#{res_id}
+	</update>
+	
+	<update id="updResume"  parameterType="EngageResume">
+		update engage_resume  set
+		<if test="test_amount!=null ">
+			test_amount=#{test_amount},
+		</if>
+		<if test="total_points!=null ">
+			total_points=#{total_points} 
+		</if>
+		where res_id=#{res_id}
+	</update>
+	
+	<update id="updResume2"  parameterType="EngageResume">
+		update engage_resume  set
+		<if test="pass_register!=null ">
+			pass_register=#{pass_register},
+		</if>
+		<if test="pass_regist_time!=null ">
+			pass_regist_time=#{pass_regist_time}
+		</if>
+		
+		
+		<if test="pass_checker!=null ">
+			pass_checker=#{pass_checker},
+		</if>
+		<if test="pass_check_time!=null ">
+			pass_check_time=#{pass_check_time}, 
+		</if>
+		<if test="pass_check_status!=null ">
+			pass_check_status=#{pass_check_status}, 
+		</if>
+		<if test="pass_checkComment!=null ">
+			pass_checkComment=#{pass_checkComment} ,
+		</if>
+		<if test="test_amount!=null ">
+			test_amount=#{test_amount} ,
+		</if>
+		<if test="recomandation!=null ">
+			recomandation=#{recomandation}
+		</if>
+		
+		<if test="test_checker!=null ">
+			test_checker=#{test_checker},
+		</if>
+		<if test="test_check_time!=null ">
+			test_check_time=#{test_check_time} 
+		</if>
+		where res_id=#{res_id}
+	</update>
+	
+	<!-- 删除简历 -->
+	<delete id="deleteResume"  parameterType="EngageResume">
+		delete from engage_resume where res_id=#{res_id}
+	</delete>
+	
+	
+	<!-- 录用 -->
+	<!-- 录用申请 -->
+	<select id="findPassRegisterList" resultType="EngageResume">
+		select * from engage_resume where pass_check_status=0 and pass_register is not null
+	</select>
+	
+	<!-- 正式提交录用申请 -->
+	<update id="passRegister" parameterType="EngageResume">
+		update engage_resume set pass_checkComment=#{pass_checkComment},
+		pass_checker=#{pass_checker},pass_check_time=#{pass_check_time},
+		pass_check_status=1 
+		where res_id=#{res_id} 
+	</update>
+	
+	
+<!-- 审批操作 -->
+	<select id="findPassPassList" resultType="EngageResume">
+		select * from engage_resume where pass_check_status=1 and pass_passComment is null
+	</select>
+	
+	<!-- 人事经理审批 -->
+	<update id="passPass" parameterType="EngageResume">
+		update engage_resume set pass_passComment=#{pass_passComment}
+		where res_id=#{res_id} 
+	</update>
+	
+<!-- 录用查询 -->
+	<select id="findPassList" resultType="EngageResume">
+		select * from engage_resume where pass_passComment is not null
+	</select>
+	
+</mapper>

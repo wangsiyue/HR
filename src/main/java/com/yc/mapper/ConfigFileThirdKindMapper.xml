@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.mapper.ConfigFileThirdKindMapper">
+	<select id="findAll" resultType="ConfigFileThirdKind">
+		select ftk_id,first_kind_id,first_kind_name,second_kind_id,second_kind_name,third_kind_id,third_kind_name,third_kind_sale_id,third_kind_is_retail from config_file_third_kind
+	</select>
+	
+	<select id="findBySecondKindID" resultType="ConfigFileThirdKind" parameterType="ConfigFileThirdKind">
+		select ftk_id,first_kind_id,first_kind_name,second_kind_id,second_kind_name,third_kind_id,third_kind_name,third_kind_sale_id,third_kind_is_retail from config_file_third_kind
+		where second_kind_id=#{second_kind_id}
+	</select>
+	
+	<select id="getMaxThirdKindIdBySecondId" resultType="ConfigFileThirdKind" parameterType="ConfigFileThirdKind">
+		select MAX(third_kind_id) from config_file_third_kind where second_kind_id=#{second_kind_id}
+	</select>
+	
+	<insert id="add" parameterType="ConfigFileThirdKind">
+		insert into config_file_third_kind(first_kind_id,first_kind_name,second_kind_id,second_kind_name,third_kind_id,third_kind_name,third_kind_sale_id,third_kind_is_retail)
+		 values(#{first_kind_id},#{first_kind_name},#{second_kind_id},#{second_kind_name},#{third_kind_id},#{third_kind_name},#{third_kind_sale_id},#{third_kind_is_retail})
+	</insert>
+	
+	<select id="findByFtkId" parameterType="ConfigFileThirdKind" resultType="ConfigFileThirdKind">
+		select * from config_file_third_kind
+		where ftk_id=#{ftk_id}
+	</select>
+	
+	<!-- 更改三级机构 -->
+	<update id="changeConfigFileThirdkind" parameterType="ConfigFileThirdKind">
+		update config_file_third_kind set first_kind_id=#{first_kind_id},first_kind_name=#{first_kind_name},
+		second_kind_id=#{second_kind_id},second_kind_name=#{second_kind_name},third_kind_id=#{third_kind_id},
+		third_kind_name=#{third_kind_name},third_kind_sale_id=#{third_kind_sale_id},third_kind_is_retail=#{third_kind_is_retail}
+		 where ftk_id=#{ftk_id}
+	</update>
+	
+	<!-- 删除 -->
+	<delete id="delByFtkId" parameterType="ConfigFileThirdKind">
+		delete from config_file_third_kind where ftk_id=#{ftk_id}
+	</delete>
+	
+	<select id="findByThirdName" resultType="ConfigFileThirdKind">
+		select first_kind_id,second_kind_id,third_kind_id
+		 from config_file_third_kind where third_kind_name=#{third_kind_name}
+	</select>
+</mapper>
